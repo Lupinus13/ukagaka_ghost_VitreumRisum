@@ -1,0 +1,7 @@
+.gitignore,nonar,noupdate
+.gitattributes,nonar,noupdate
+.git/,nonar,noupdate
+ghost/master/satori_savebackup.txt,nonar,noupdate
+ghost/master/satori_savedata.txt,nonar,noupdate
+ghost/master/dic300_function_ko_vitreum.txt,nonar,noupdate
+ghost/master/dic400_function_ar_vitreum.txt,nonar,noupdate

@@ -51,3 +51,4 @@ kero.name,望まれるもの
 // アイコンを使用する場合、アイコンのファイル名を記述します。
 icon,icon_vitreum.ico
 
+homeurl,https://raw.githubusercontent.com/Lupinus13/ukagaka_ghost_VitreumRisum/

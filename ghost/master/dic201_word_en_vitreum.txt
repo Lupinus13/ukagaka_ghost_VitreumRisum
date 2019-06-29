@@ -1,4 +1,4 @@
-＃ver23
+＃ver25
 ＃英語単語リスト
 
 ＠en数詞
@@ -29,17 +29,40 @@ she（set,en主語単複,単数）
 it（set,en主語単複,単数）
 
 ＠en形容詞
-（call,en形容詞セット,a,pink,）
-（call,en形容詞セット,a,white,）
-（call,en形容詞セット,a,red,）
-（call,en形容詞セット,a,blue,）
-（call,en形容詞セット,a,black,）
-（call,en形容詞セット,a,big,）
-（call,en形容詞セット,a,small,）
+（合成単語群
+	,en形容詞_一般
+	,en形容詞_色
+）
+
+＠en形容詞_一般
 （call,en形容詞セット,a,beautiful,）
-（call,en形容詞セット,a,happy,）
-（call,en形容詞セット,a,sleepy,）
+（call,en形容詞セット,a,big,）
+（call,en形容詞セット,a,bright,）
 （call,en形容詞セット,a,cute,）
+（call,en形容詞セット,a,dark,）
+（call,en形容詞セット,a,deep,）
+（call,en形容詞セット,an,empty,）
+（call,en形容詞セット,a,happy,）
+（call,en形容詞セット,a,large,）
+（call,en形容詞セット,a,lucid,）
+（call,en形容詞セット,a,natural,）
+（call,en形容詞セット,a,next,）
+（call,en形容詞セット,a,sleepy,）
+（call,en形容詞セット,a,slow,）
+（call,en形容詞セット,a,small,）
+（call,en形容詞セット,a,sweet,）
+
+＠en形容詞_色
+（call,en形容詞セット,an,aquamarine,）
+（call,en形容詞セット,a,black,）
+（call,en形容詞セット,a,blue,）
+（call,en形容詞セット,a,citrine,）
+（call,en形容詞セット,an,emerald,）
+（call,en形容詞セット,a,marmalade,）
+（call,en形容詞セット,an,orange,）
+（call,en形容詞セット,a,pink,）
+（call,en形容詞セット,a,red,）
+（call,en形容詞セット,a,white,）
 
 
 ＠enめもてき
@@ -47,6 +70,7 @@ it（set,en主語単複,単数）
 （call,en名詞セット,a,,c,r,）
 （call,en名詞セット,a,,u,,）
 （call,en名詞セット,a,,cu,r,）
+
 
 ＃（call,en名詞セット,）
 ＃（call,en名詞セット,fish,c,i,fish）
@@ -56,30 +80,56 @@ it（set,en主語単複,単数）
 ＃名詞変化（Ａ３）：r＝規則的,i＝特殊
 ＃特殊変化群（Ａ４）：複数形をそのまま入力
 ＠en名詞
+（call,en名詞セット,an,agate,cu,r,）
+（call,en名詞セット,an,alexandrite,cu,r,）
+（call,en名詞セット,an,aquamarine,cu,r,）
 （call,en名詞セット,a,book,c,r,）
+（call,en名詞セット,a,carnelian,cu,r,）
+（call,en名詞セット,a,celestite,cu,r,）
+（call,en名詞セット,a,citrine,cu,r,）
 （call,en名詞セット,a,clock,c,r,）
 （call,en名詞セット,a,conversation,u,,）
+（call,en名詞セット,a,cup,c,r,）
 （call,en名詞セット,a,curse,c,r,）
 （call,en名詞セット,a,daisy,c,r,）
+（call,en名詞セット,a,dark,cu,r,）
 （call,en名詞セット,a,daydream,c,r,）
+（call,en名詞セット,a,disappointment,cu,r,）
 （call,en名詞セット,a,drink,u,,）
 （call,en名詞セット,an,egg,c,r,）
+（call,en名詞セット,an,emerald,cu,r,）
+（call,en名詞セット,a,fear,cu,r,）
 （call,en名詞セット,a,fight,c,r,）
 （call,en名詞セット,a,fish,c,i,fish）
+（call,en名詞セット,a,heliodor,cu,r,）
+（call,en名詞セット,a,home,cu,r,）
 （call,en名詞セット,a,hurt,cu,r,）
+（call,en名詞セット,an,iolite,cu,r,）
+（call,en名詞セット,a,map,c,r,）
+（call,en名詞セット,a,marmalade,u,,）
 （call,en名詞セット,a,mirror,c,r,）
+（call,en名詞セット,a,moment,c,r,）
 （call,en名詞セット,a,music,u,,）
+（call,en名詞セット,a,nature,cu,r,）
 （call,en名詞セット,a,needle,c,r,）
+（call,en名詞セット,an,orange,cu,r,）
 （call,en名詞セット,a,picture,c,r,）
 （call,en名詞セット,a,pleasure,u,,）
 （call,en名詞セット,a,rabbit,c,r,）
 （call,en名詞セット,a,sand,cu,r,）
 （call,en名詞セット,a,sheep,c,i,sheep）
+（call,en名詞セット,a,shelf,c,r,）
 （call,en名詞セット,a,scissor,p,r,）
 （call,en名詞セット,a,sleep,u,,）
+（call,en名詞セット,a,stair,c,,）
+（call,en名詞セット,a,sweet,cu,r,）
 （call,en名詞セット,a,time,u,,）
 （call,en名詞セット,a,trouble,u,,）
 （call,en名詞セット,a,water,u,,）
+（call,en名詞セット,a,wonder,cu,r,）
+（call,en名詞セット,a,world,c,,）
+
+
 
 
 ＠en名詞めもてき
@@ -94,6 +144,9 @@ it（set,en主語単複,単数）
 （call,en名詞セット,stapler）
 
 
+＠en副詞めもてき
+suddenly
+
 ＃（call,en動詞セット,go,i,went,gone）
 ＃（call,en動詞セット,walk,r,1）
 ＃（Ａ３）＝	1	：ed
@@ -107,6 +160,7 @@ it（set,en主語単複,単数）
 （call,en動詞セット,a,cry,r,3）
 （call,en動詞セット,a,daydream,r,1）
 （call,en動詞セット,an,end,r,1）
+（call,en動詞セット,an,empty,r,3）
 （call,en動詞セット,a,go,i,went,gone）
 （call,en動詞セット,a,grow,i,grew,grown）
 （call,en動詞セット,an,increase,r,2）
@@ -115,6 +169,7 @@ it（set,en主語単複,単数）
 （call,en動詞セット,a,sing,i,sang,sung）
 （call,en動詞セット,a,sleep,i,slept,slept）
 （call,en動詞セット,a,walk,r,1）
+（call,en動詞セット,a,wonder,r,1）
 
 ＃第二文型なんてなかった（beだけあとで入れます）
 ＠en動詞b
@@ -129,12 +184,16 @@ it（set,en主語単複,単数）
 （call,en動詞セット,a,curse,r,2）
 （call,en動詞セット,a,cut,i,cut,cut）
 （call,en動詞セット,a,doubt,r,1）
+（call,en動詞セット,a,down,r,1,）
 （call,en動詞セット,a,drink,i,drank,drunk）
 （call,en動詞セット,an,eat,i,ate,eaten）
+（call,en動詞セット,an,empty,r,3）
+（call,en動詞セット,a,fear,r,1）
 （call,en動詞セット,a,fight,i,fought,fought）
 （call,en動詞セット,a,fix,r,1）
 （call,en動詞セット,a,forget,i,forgot,forgotten）
 （call,en動詞セット,a,forgive,i,forgave,forgiven）
+（call,en動詞セット,a,find,i,found,found）
 （call,en動詞セット,a,grind,i,ground,ground）
 （call,en動詞セット,a,hear,i,heard,heard）
 （call,en動詞セット,a,hide,i,hid,hidden）
@@ -145,4 +204,5 @@ it（set,en主語単複,単数）
 （call,en動詞セット,a,mirror,r,1）
 （call,en動詞セット,a,mix,r,1）＃（en_前置詞_with）
 （call,en動詞セット,a,sand,r,1）
+（call,en動詞セット,a,slow,r,1）
 （call,en動詞セット,a,pick,r,1）
