@@ -1,0 +1,4 @@
+charset,Shift_JIS
+name,VitreumRisum
+type,ghost
+directory,VitreumRisum

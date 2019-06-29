@@ -1,0 +1,1426 @@
+
+// シェルの動作を記述するファイル。
+// 詳しくはukadoc（http://ssp.shillest.net/ukadoc/manual/descript_shell_surfaces.html）へ。
+
+////////////////////////////////////////////////////////////////////////////////
+// 文字コードの設定
+////////////////////////////////////////////////////////////////////////////////
+
+//------------------------------------------------------------------------------
+// 文字コードはShift_JISで、記述は新定義で行う、という意味。
+// 以下はとりあえずコピペで書いておきましょう。
+charset,Shift_JIS
+
+descript
+{
+	version,1
+}
+
+surface0
+{
+	element0,base,surface0000.png,0,0
+}
+
+surface1
+{
+	element0,base,surface0001.png,0,0
+}
+
+surface2
+{
+	element0,base,surface0002.png,0,0
+}
+
+
+surface10
+{
+	element0,base,surface0010.png,0,0
+}
+
+//着せ替え設定
+
+surface.append0,1
+{
+	//wingl1
+	animation300.interval,bind
+	animation300.pattern0,overlay,300,0,0,0
+
+	animation301.interval,bind
+	animation301.pattern0,overlay,301,0,0,0
+
+	animation302.interval,bind
+	animation302.pattern0,overlay,302,0,0,0
+
+	animation303.interval,bind
+	animation303.pattern0,overlay,303,0,0,0
+
+	animation304.interval,bind
+	animation304.pattern0,overlay,304,0,0,0
+
+	animation305.interval,bind
+	animation305.pattern0,overlay,305,0,0,0
+
+	animation306.interval,bind
+	animation306.pattern0,overlay,306,0,0,0
+
+	animation307.interval,bind
+	animation307.pattern0,overlay,307,0,0,0
+
+	animation308.interval,bind
+	animation308.pattern0,overlay,308,0,0,0
+
+	animation309.interval,bind
+	animation309.pattern0,overlay,309,0,0,0
+
+	animation310.interval,bind
+	animation310.pattern0,overlay,310,0,0,0
+
+	animation311.interval,bind
+	animation311.pattern0,overlay,311,0,0,0
+
+	animation312.interval,bind
+	animation312.pattern0,overlay,312,0,0,0
+
+	animation313.interval,bind
+	animation313.pattern0,overlay,313,0,0,0
+
+	animation314.interval,bind
+	animation314.pattern0,overlay,314,0,0,0
+
+	animation315.interval,bind
+	animation315.pattern0,overlay,315,0,0,0
+
+	animation316.interval,bind
+	animation316.pattern0,overlay,316,0,0,0
+
+	animation317.interval,bind
+	animation317.pattern0,overlay,317,0,0,0
+
+	animation318.interval,bind
+	animation318.pattern0,overlay,318,0,0,0
+
+	animation319.interval,bind
+	animation319.pattern0,overlay,319,0,0,0
+
+	animation320.interval,bind
+	animation320.pattern0,overlay,320,0,0,0
+
+	animation321.interval,bind
+	animation321.pattern0,overlay,321,0,0,0
+
+	animation322.interval,bind
+	animation322.pattern0,overlay,322,0,0,0
+
+	animation323.interval,bind
+	animation323.pattern0,overlay,323,0,0,0
+
+	animation324.interval,bind
+	animation324.pattern0,overlay,324,0,0,0
+
+	animation325.interval,bind
+	animation325.pattern0,overlay,325,0,0,0
+
+	animation326.interval,bind
+	animation326.pattern0,overlay,326,0,0,0
+
+	animation327.interval,bind
+	animation327.pattern0,overlay,327,0,0,0
+
+
+	//wingl2
+	animation200.interval,bind
+	animation200.pattern0,overlay,200,0,0,0
+
+	animation201.interval,bind
+	animation201.pattern0,overlay,201,0,0,0
+
+	animation202.interval,bind
+	animation202.pattern0,overlay,202,0,0,0
+
+	animation203.interval,bind
+	animation203.pattern0,overlay,203,0,0,0
+
+	animation204.interval,bind
+	animation204.pattern0,overlay,204,0,0,0
+
+	animation205.interval,bind
+	animation205.pattern0,overlay,205,0,0,0
+
+	animation206.interval,bind
+	animation206.pattern0,overlay,206,0,0,0
+
+	animation207.interval,bind
+	animation207.pattern0,overlay,207,0,0,0
+
+	animation208.interval,bind
+	animation208.pattern0,overlay,208,0,0,0
+
+	animation209.interval,bind
+	animation209.pattern0,overlay,209,0,0,0
+
+	animation210.interval,bind
+	animation210.pattern0,overlay,210,0,0,0
+
+	animation211.interval,bind
+	animation211.pattern0,overlay,211,0,0,0
+
+	animation212.interval,bind
+	animation212.pattern0,overlay,212,0,0,0
+
+	animation213.interval,bind
+	animation213.pattern0,overlay,213,0,0,0
+
+	animation214.interval,bind
+	animation214.pattern0,overlay,214,0,0,0
+
+	animation215.interval,bind
+	animation215.pattern0,overlay,215,0,0,0
+
+	animation216.interval,bind
+	animation216.pattern0,overlay,216,0,0,0
+
+	animation217.interval,bind
+	animation217.pattern0,overlay,217,0,0,0
+
+	animation218.interval,bind
+	animation218.pattern0,overlay,218,0,0,0
+
+	animation219.interval,bind
+	animation219.pattern0,overlay,219,0,0,0
+
+	animation220.interval,bind
+	animation220.pattern0,overlay,220,0,0,0
+
+	animation221.interval,bind
+	animation221.pattern0,overlay,221,0,0,0
+
+	animation222.interval,bind
+	animation222.pattern0,overlay,222,0,0,0
+
+	animation223.interval,bind
+	animation223.pattern0,overlay,223,0,0,0
+
+	animation224.interval,bind
+	animation224.pattern0,overlay,224,0,0,0
+
+	animation225.interval,bind
+	animation225.pattern0,overlay,225,0,0,0
+
+	animation226.interval,bind
+	animation226.pattern0,overlay,226,0,0,0
+
+	animation227.interval,bind
+	animation227.pattern0,overlay,227,0,0,0
+
+
+	//wingl3
+	animation100.interval,bind
+	animation100.pattern0,overlay,100,0,0,0
+
+	animation101.interval,bind
+	animation101.pattern0,overlay,101,0,0,0
+
+	animation102.interval,bind
+	animation102.pattern0,overlay,102,0,0,0
+
+	animation103.interval,bind
+	animation103.pattern0,overlay,103,0,0,0
+
+	animation104.interval,bind
+	animation104.pattern0,overlay,104,0,0,0
+
+	animation105.interval,bind
+	animation105.pattern0,overlay,105,0,0,0
+
+	animation106.interval,bind
+	animation106.pattern0,overlay,106,0,0,0
+
+	animation107.interval,bind
+	animation107.pattern0,overlay,107,0,0,0
+
+	animation108.interval,bind
+	animation108.pattern0,overlay,108,0,0,0
+
+	animation109.interval,bind
+	animation109.pattern0,overlay,109,0,0,0
+
+	animation110.interval,bind
+	animation110.pattern0,overlay,110,0,0,0
+
+	animation111.interval,bind
+	animation111.pattern0,overlay,111,0,0,0
+
+	animation112.interval,bind
+	animation112.pattern0,overlay,112,0,0,0
+
+	animation113.interval,bind
+	animation113.pattern0,overlay,113,0,0,0
+
+	animation114.interval,bind
+	animation114.pattern0,overlay,114,0,0,0
+
+	animation115.interval,bind
+	animation115.pattern0,overlay,115,0,0,0
+
+	animation116.interval,bind
+	animation116.pattern0,overlay,116,0,0,0
+
+	animation117.interval,bind
+	animation117.pattern0,overlay,117,0,0,0
+
+	animation118.interval,bind
+	animation118.pattern0,overlay,118,0,0,0
+
+	animation119.interval,bind
+	animation119.pattern0,overlay,119,0,0,0
+
+	animation120.interval,bind
+	animation120.pattern0,overlay,120,0,0,0
+
+	animation121.interval,bind
+	animation121.pattern0,overlay,121,0,0,0
+
+	animation122.interval,bind
+	animation122.pattern0,overlay,122,0,0,0
+
+	animation123.interval,bind
+	animation123.pattern0,overlay,123,0,0,0
+
+	animation124.interval,bind
+	animation124.pattern0,overlay,124,0,0,0
+
+	animation125.interval,bind
+	animation125.pattern0,overlay,125,0,0,0
+
+	animation126.interval,bind
+	animation126.pattern0,overlay,126,0,0,0
+
+	animation127.interval,bind
+	animation127.pattern0,overlay,127,0,0,0
+}
+
+surface.append0,1
+{
+	animation399.interval,bind
+	animation399.pattern0,overlay,399,0,0,0
+}
+
+surface.append0,1
+{
+	//wingr1
+	animation600.interval,bind
+	animation600.pattern0,overlay,600,0,0,0
+
+	animation601.interval,bind
+	animation601.pattern0,overlay,601,0,0,0
+
+	animation602.interval,bind
+	animation602.pattern0,overlay,602,0,0,0
+
+	animation603.interval,bind
+	animation603.pattern0,overlay,603,0,0,0
+
+	animation604.interval,bind
+	animation604.pattern0,overlay,604,0,0,0
+
+	animation605.interval,bind
+	animation605.pattern0,overlay,605,0,0,0
+
+	animation606.interval,bind
+	animation606.pattern0,overlay,606,0,0,0
+
+	animation607.interval,bind
+	animation607.pattern0,overlay,607,0,0,0
+
+	animation608.interval,bind
+	animation608.pattern0,overlay,608,0,0,0
+
+	animation609.interval,bind
+	animation609.pattern0,overlay,609,0,0,0
+
+	animation610.interval,bind
+	animation610.pattern0,overlay,610,0,0,0
+
+	animation611.interval,bind
+	animation611.pattern0,overlay,611,0,0,0
+
+	animation612.interval,bind
+	animation612.pattern0,overlay,612,0,0,0
+
+	animation613.interval,bind
+	animation613.pattern0,overlay,613,0,0,0
+
+	animation614.interval,bind
+	animation614.pattern0,overlay,614,0,0,0
+
+	animation615.interval,bind
+	animation615.pattern0,overlay,615,0,0,0
+
+	animation616.interval,bind
+	animation616.pattern0,overlay,616,0,0,0
+
+	animation617.interval,bind
+	animation617.pattern0,overlay,617,0,0,0
+
+	animation618.interval,bind
+	animation618.pattern0,overlay,618,0,0,0
+
+	animation619.interval,bind
+	animation619.pattern0,overlay,619,0,0,0
+
+	animation620.interval,bind
+	animation620.pattern0,overlay,620,0,0,0
+
+	animation621.interval,bind
+	animation621.pattern0,overlay,621,0,0,0
+
+	animation622.interval,bind
+	animation622.pattern0,overlay,622,0,0,0
+
+	animation623.interval,bind
+	animation623.pattern0,overlay,623,0,0,0
+
+	animation624.interval,bind
+	animation624.pattern0,overlay,624,0,0,0
+
+	animation625.interval,bind
+	animation625.pattern0,overlay,625,0,0,0
+
+	animation626.interval,bind
+	animation626.pattern0,overlay,626,0,0,0
+
+	animation627.interval,bind
+	animation627.pattern0,overlay,627,0,0,0
+
+
+	//wingr2
+	animation500.interval,bind
+	animation500.pattern0,overlay,500,0,0,0
+
+	animation501.interval,bind
+	animation501.pattern0,overlay,501,0,0,0
+
+	animation502.interval,bind
+	animation502.pattern0,overlay,502,0,0,0
+
+	animation503.interval,bind
+	animation503.pattern0,overlay,503,0,0,0
+
+	animation504.interval,bind
+	animation504.pattern0,overlay,504,0,0,0
+
+	animation505.interval,bind
+	animation505.pattern0,overlay,505,0,0,0
+
+	animation506.interval,bind
+	animation506.pattern0,overlay,506,0,0,0
+
+	animation507.interval,bind
+	animation507.pattern0,overlay,507,0,0,0
+
+	animation508.interval,bind
+	animation508.pattern0,overlay,508,0,0,0
+
+	animation509.interval,bind
+	animation509.pattern0,overlay,509,0,0,0
+
+	animation510.interval,bind
+	animation510.pattern0,overlay,510,0,0,0
+
+	animation511.interval,bind
+	animation511.pattern0,overlay,511,0,0,0
+
+	animation512.interval,bind
+	animation512.pattern0,overlay,512,0,0,0
+
+	animation513.interval,bind
+	animation513.pattern0,overlay,513,0,0,0
+
+	animation514.interval,bind
+	animation514.pattern0,overlay,514,0,0,0
+
+	animation515.interval,bind
+	animation515.pattern0,overlay,515,0,0,0
+
+	animation516.interval,bind
+	animation516.pattern0,overlay,516,0,0,0
+
+	animation517.interval,bind
+	animation517.pattern0,overlay,517,0,0,0
+
+	animation518.interval,bind
+	animation518.pattern0,overlay,518,0,0,0
+
+	animation519.interval,bind
+	animation519.pattern0,overlay,519,0,0,0
+
+	animation520.interval,bind
+	animation520.pattern0,overlay,520,0,0,0
+
+	animation521.interval,bind
+	animation521.pattern0,overlay,521,0,0,0
+
+	animation522.interval,bind
+	animation522.pattern0,overlay,522,0,0,0
+
+	animation523.interval,bind
+	animation523.pattern0,overlay,523,0,0,0
+
+	animation524.interval,bind
+	animation524.pattern0,overlay,524,0,0,0
+
+	animation525.interval,bind
+	animation525.pattern0,overlay,525,0,0,0
+
+	animation526.interval,bind
+	animation526.pattern0,overlay,526,0,0,0
+
+	animation527.interval,bind
+	animation527.pattern0,overlay,527,0,0,0
+
+
+	//wingr3
+	animation400.interval,bind
+	animation400.pattern0,overlay,400,0,0,0
+
+	animation401.interval,bind
+	animation401.pattern0,overlay,401,0,0,0
+
+	animation402.interval,bind
+	animation402.pattern0,overlay,402,0,0,0
+
+	animation403.interval,bind
+	animation403.pattern0,overlay,403,0,0,0
+
+	animation404.interval,bind
+	animation404.pattern0,overlay,404,0,0,0
+
+	animation405.interval,bind
+	animation405.pattern0,overlay,405,0,0,0
+
+	animation406.interval,bind
+	animation406.pattern0,overlay,406,0,0,0
+
+	animation407.interval,bind
+	animation407.pattern0,overlay,407,0,0,0
+
+	animation408.interval,bind
+	animation408.pattern0,overlay,408,0,0,0
+
+	animation409.interval,bind
+	animation409.pattern0,overlay,409,0,0,0
+
+	animation410.interval,bind
+	animation410.pattern0,overlay,410,0,0,0
+
+	animation411.interval,bind
+	animation411.pattern0,overlay,411,0,0,0
+
+	animation412.interval,bind
+	animation412.pattern0,overlay,412,0,0,0
+
+	animation413.interval,bind
+	animation413.pattern0,overlay,413,0,0,0
+
+	animation414.interval,bind
+	animation414.pattern0,overlay,414,0,0,0
+
+	animation415.interval,bind
+	animation415.pattern0,overlay,415,0,0,0
+
+	animation416.interval,bind
+	animation416.pattern0,overlay,416,0,0,0
+
+	animation417.interval,bind
+	animation417.pattern0,overlay,417,0,0,0
+
+	animation418.interval,bind
+	animation418.pattern0,overlay,418,0,0,0
+
+	animation419.interval,bind
+	animation419.pattern0,overlay,419,0,0,0
+
+	animation420.interval,bind
+	animation420.pattern0,overlay,420,0,0,0
+
+	animation421.interval,bind
+	animation421.pattern0,overlay,421,0,0,0
+
+	animation422.interval,bind
+	animation422.pattern0,overlay,422,0,0,0
+
+	animation423.interval,bind
+	animation423.pattern0,overlay,423,0,0,0
+
+	animation424.interval,bind
+	animation424.pattern0,overlay,424,0,0,0
+
+	animation425.interval,bind
+	animation425.pattern0,overlay,425,0,0,0
+
+	animation426.interval,bind
+	animation426.pattern0,overlay,426,0,0,0
+
+	animation427.interval,bind
+	animation427.pattern0,overlay,427,0,0,0
+}
+
+
+
+//着せ替え用サーフェスの用意
+surface600
+{
+	element0,base,wingr1_00.png,0,0
+}
+
+surface601
+{
+	element0,base,wingr1_01.png,0,0
+}
+
+surface602
+{
+	element0,base,wingr1_02.png,0,0
+}
+
+surface603
+{
+	element0,base,wingr1_03.png,0,0
+}
+
+surface604
+{
+	element0,base,wingr1_04.png,0,0
+}
+
+surface605
+{
+	element0,base,wingr1_05.png,0,0
+}
+
+surface606
+{
+	element0,base,wingr1_06.png,0,0
+}
+
+surface607
+{
+	element0,base,wingr1_07.png,0,0
+}
+
+surface608
+{
+	element0,base,wingr1_08.png,0,0
+}
+
+surface609
+{
+	element0,base,wingr1_09.png,0,0
+}
+
+surface610
+{
+	element0,base,wingr1_10.png,0,0
+}
+
+surface611
+{
+	element0,base,wingr1_11.png,0,0
+}
+
+surface612
+{
+	element0,base,wingr1_12.png,0,0
+}
+
+surface613
+{
+	element0,base,wingr1_13.png,0,0
+}
+
+surface614
+{
+	element0,base,wingr1_14.png,0,0
+}
+
+surface615
+{
+	element0,base,wingr1_15.png,0,0
+}
+
+surface616
+{
+	element0,base,wingr1_16.png,0,0
+}
+
+surface617
+{
+	element0,base,wingr1_17.png,0,0
+}
+
+surface618
+{
+	element0,base,wingr1_18.png,0,0
+}
+
+surface619
+{
+	element0,base,wingr1_19.png,0,0
+}
+
+surface620
+{
+	element0,base,wingr1_20.png,0,0
+}
+
+surface621
+{
+	element0,base,wingr1_21.png,0,0
+}
+
+surface622
+{
+	element0,base,wingr1_22.png,0,0
+}
+
+surface623
+{
+	element0,base,wingr1_23.png,0,0
+}
+
+surface624
+{
+	element0,base,wingr1_24.png,0,0
+}
+
+surface625
+{
+	element0,base,wingr1_25.png,0,0
+}
+
+surface626
+{
+	element0,base,wingr1_26.png,0,0
+}
+
+surface627
+{
+	element0,base,wingr1_27.png,0,0
+}
+
+
+surface500
+{
+	element0,base,wingr2_00.png,0,0
+}
+
+surface501
+{
+	element0,base,wingr2_01.png,0,0
+}
+
+surface502
+{
+	element0,base,wingr2_02.png,0,0
+}
+
+surface503
+{
+	element0,base,wingr2_03.png,0,0
+}
+
+surface504
+{
+	element0,base,wingr2_04.png,0,0
+}
+
+surface505
+{
+	element0,base,wingr2_05.png,0,0
+}
+
+surface506
+{
+	element0,base,wingr2_06.png,0,0
+}
+
+surface507
+{
+	element0,base,wingr2_07.png,0,0
+}
+
+surface508
+{
+	element0,base,wingr2_08.png,0,0
+}
+
+surface509
+{
+	element0,base,wingr2_09.png,0,0
+}
+
+surface510
+{
+	element0,base,wingr2_10.png,0,0
+}
+
+surface511
+{
+	element0,base,wingr2_11.png,0,0
+}
+
+surface512
+{
+	element0,base,wingr2_12.png,0,0
+}
+
+surface513
+{
+	element0,base,wingr2_13.png,0,0
+}
+
+surface514
+{
+	element0,base,wingr2_14.png,0,0
+}
+
+surface515
+{
+	element0,base,wingr2_15.png,0,0
+}
+
+surface516
+{
+	element0,base,wingr2_16.png,0,0
+}
+
+surface517
+{
+	element0,base,wingr2_17.png,0,0
+}
+
+surface518
+{
+	element0,base,wingr2_18.png,0,0
+}
+
+surface519
+{
+	element0,base,wingr2_19.png,0,0
+}
+
+surface520
+{
+	element0,base,wingr2_20.png,0,0
+}
+
+surface521
+{
+	element0,base,wingr2_21.png,0,0
+}
+
+surface522
+{
+	element0,base,wingr2_22.png,0,0
+}
+
+surface523
+{
+	element0,base,wingr2_23.png,0,0
+}
+
+surface524
+{
+	element0,base,wingr2_24.png,0,0
+}
+
+surface525
+{
+	element0,base,wingr2_25.png,0,0
+}
+
+surface526
+{
+	element0,base,wingr2_26.png,0,0
+}
+
+surface527
+{
+	element0,base,wingr2_27.png,0,0
+}
+
+
+
+surface400
+{
+	element0,base,wingr3_00.png,0,0
+}
+
+surface401
+{
+	element0,base,wingr3_01.png,0,0
+}
+
+surface402
+{
+	element0,base,wingr3_02.png,0,0
+}
+
+surface403
+{
+	element0,base,wingr3_03.png,0,0
+}
+
+surface404
+{
+	element0,base,wingr3_04.png,0,0
+}
+
+surface405
+{
+	element0,base,wingr3_05.png,0,0
+}
+
+surface406
+{
+	element0,base,wingr3_06.png,0,0
+}
+
+surface407
+{
+	element0,base,wingr3_07.png,0,0
+}
+
+surface408
+{
+	element0,base,wingr3_08.png,0,0
+}
+
+surface409
+{
+	element0,base,wingr3_09.png,0,0
+}
+
+surface410
+{
+	element0,base,wingr3_10.png,0,0
+}
+
+surface411
+{
+	element0,base,wingr3_11.png,0,0
+}
+
+surface412
+{
+	element0,base,wingr3_12.png,0,0
+}
+
+surface413
+{
+	element0,base,wingr3_13.png,0,0
+}
+
+surface414
+{
+	element0,base,wingr3_14.png,0,0
+}
+
+surface415
+{
+	element0,base,wingr3_15.png,0,0
+}
+
+surface416
+{
+	element0,base,wingr3_16.png,0,0
+}
+
+surface417
+{
+	element0,base,wingr3_17.png,0,0
+}
+
+surface418
+{
+	element0,base,wingr3_18.png,0,0
+}
+
+surface419
+{
+	element0,base,wingr3_19.png,0,0
+}
+
+surface420
+{
+	element0,base,wingr3_20.png,0,0
+}
+
+surface421
+{
+	element0,base,wingr3_21.png,0,0
+}
+
+surface422
+{
+	element0,base,wingr3_22.png,0,0
+}
+
+surface423
+{
+	element0,base,wingr3_23.png,0,0
+}
+
+surface424
+{
+	element0,base,wingr3_24.png,0,0
+}
+
+surface425
+{
+	element0,base,wingr3_25.png,0,0
+}
+
+surface426
+{
+	element0,base,wingr3_26.png,0,0
+}
+
+surface427
+{
+	element0,base,wingr3_27.png,0,0
+}
+
+
+
+surface399
+{
+	element0,base,surface0000.png,0,0
+}
+
+
+
+surface300
+{
+	element0,base,wingl1_00.png,0,0
+}
+
+surface301
+{
+	element0,base,wingl1_01.png,0,0
+}
+
+surface302
+{
+	element0,base,wingl1_02.png,0,0
+}
+
+surface303
+{
+	element0,base,wingl1_03.png,0,0
+}
+
+surface304
+{
+	element0,base,wingl1_04.png,0,0
+}
+
+surface305
+{
+	element0,base,wingl1_05.png,0,0
+}
+
+surface306
+{
+	element0,base,wingl1_06.png,0,0
+}
+
+surface307
+{
+	element0,base,wingl1_07.png,0,0
+}
+
+surface308
+{
+	element0,base,wingl1_08.png,0,0
+}
+
+surface309
+{
+	element0,base,wingl1_09.png,0,0
+}
+
+surface310
+{
+	element0,base,wingl1_10.png,0,0
+}
+
+surface311
+{
+	element0,base,wingl1_11.png,0,0
+}
+
+surface312
+{
+	element0,base,wingl1_12.png,0,0
+}
+
+surface313
+{
+	element0,base,wingl1_13.png,0,0
+}
+
+surface314
+{
+	element0,base,wingl1_14.png,0,0
+}
+
+surface315
+{
+	element0,base,wingl1_15.png,0,0
+}
+
+surface316
+{
+	element0,base,wingl1_16.png,0,0
+}
+
+surface317
+{
+	element0,base,wingl1_17.png,0,0
+}
+
+surface318
+{
+	element0,base,wingl1_18.png,0,0
+}
+
+surface319
+{
+	element0,base,wingl1_19.png,0,0
+}
+
+surface320
+{
+	element0,base,wingl1_20.png,0,0
+}
+
+surface321
+{
+	element0,base,wingl1_21.png,0,0
+}
+
+surface322
+{
+	element0,base,wingl1_22.png,0,0
+}
+
+surface323
+{
+	element0,base,wingl1_23.png,0,0
+}
+
+surface324
+{
+	element0,base,wingl1_24.png,0,0
+}
+
+surface325
+{
+	element0,base,wingl1_25.png,0,0
+}
+
+surface326
+{
+	element0,base,wingl1_26.png,0,0
+}
+
+surface327
+{
+	element0,base,wingl1_27.png,0,0
+}
+
+
+
+
+surface200
+{
+	element0,base,wingl2_00.png,0,0
+}
+
+surface201
+{
+	element0,base,wingl2_01.png,0,0
+}
+
+surface202
+{
+	element0,base,wingl2_02.png,0,0
+}
+
+surface203
+{
+	element0,base,wingl2_03.png,0,0
+}
+
+surface204
+{
+	element0,base,wingl2_04.png,0,0
+}
+
+surface205
+{
+	element0,base,wingl2_05.png,0,0
+}
+
+surface206
+{
+	element0,base,wingl2_06.png,0,0
+}
+
+surface207
+{
+	element0,base,wingl2_07.png,0,0
+}
+
+surface208
+{
+	element0,base,wingl2_08.png,0,0
+}
+
+surface209
+{
+	element0,base,wingl2_09.png,0,0
+}
+
+surface210
+{
+	element0,base,wingl2_10.png,0,0
+}
+
+surface211
+{
+	element0,base,wingl2_11.png,0,0
+}
+
+surface212
+{
+	element0,base,wingl2_12.png,0,0
+}
+
+surface213
+{
+	element0,base,wingl2_13.png,0,0
+}
+
+surface214
+{
+	element0,base,wingl2_14.png,0,0
+}
+
+surface215
+{
+	element0,base,wingl2_15.png,0,0
+}
+
+surface216
+{
+	element0,base,wingl2_16.png,0,0
+}
+
+surface217
+{
+	element0,base,wingl2_17.png,0,0
+}
+
+surface218
+{
+	element0,base,wingl2_18.png,0,0
+}
+
+surface219
+{
+	element0,base,wingl2_19.png,0,0
+}
+
+surface220
+{
+	element0,base,wingl2_20.png,0,0
+}
+
+surface221
+{
+	element0,base,wingl2_21.png,0,0
+}
+
+surface222
+{
+	element0,base,wingl2_22.png,0,0
+}
+
+surface223
+{
+	element0,base,wingl2_23.png,0,0
+}
+
+surface224
+{
+	element0,base,wingl2_24.png,0,0
+}
+
+surface225
+{
+	element0,base,wingl2_25.png,0,0
+}
+
+surface226
+{
+	element0,base,wingl2_26.png,0,0
+}
+
+surface227
+{
+	element0,base,wingl2_27.png,0,0
+}
+
+
+
+surface100
+{
+	element0,base,wingl3_00.png,0,0
+}
+
+surface101
+{
+	element0,base,wingl3_01.png,0,0
+}
+
+surface102
+{
+	element0,base,wingl3_02.png,0,0
+}
+
+surface103
+{
+	element0,base,wingl3_03.png,0,0
+}
+
+surface104
+{
+	element0,base,wingl3_04.png,0,0
+}
+
+surface105
+{
+	element0,base,wingl3_05.png,0,0
+}
+
+surface106
+{
+	element0,base,wingl3_06.png,0,0
+}
+
+surface107
+{
+	element0,base,wingl3_07.png,0,0
+}
+
+surface108
+{
+	element0,base,wingl3_08.png,0,0
+}
+
+surface109
+{
+	element0,base,wingl3_09.png,0,0
+}
+
+surface110
+{
+	element0,base,wingl3_10.png,0,0
+}
+
+surface111
+{
+	element0,base,wingl3_11.png,0,0
+}
+
+surface112
+{
+	element0,base,wingl3_12.png,0,0
+}
+
+surface113
+{
+	element0,base,wingl3_13.png,0,0
+}
+
+surface114
+{
+	element0,base,wingl3_14.png,0,0
+}
+
+surface115
+{
+	element0,base,wingl3_15.png,0,0
+}
+
+surface116
+{
+	element0,base,wingl3_16.png,0,0
+}
+
+surface117
+{
+	element0,base,wingl3_17.png,0,0
+}
+
+surface118
+{
+	element0,base,wingl3_18.png,0,0
+}
+
+surface119
+{
+	element0,base,wingl3_19.png,0,0
+}
+
+surface120
+{
+	element0,base,wingl3_20.png,0,0
+}
+
+surface121
+{
+	element0,base,wingl3_21.png,0,0
+}
+
+surface122
+{
+	element0,base,wingl3_22.png,0,0
+}
+
+surface123
+{
+	element0,base,wingl3_23.png,0,0
+}
+
+surface124
+{
+	element0,base,wingl3_24.png,0,0
+}
+
+surface125
+{
+	element0,base,wingl3_25.png,0,0
+}
+
+surface126
+{
+	element0,base,wingl3_26.png,0,0
+}
+
+surface127
+{
+	element0,base,wingl3_27.png,0,0
+}
