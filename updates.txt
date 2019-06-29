@@ -1,7 +1,7 @@
 file,developer_options.txtd10255cdeb523faa30435534c4b9e47bsize=298
 file,ghost/master/descript.txt8fa263c7ad2094bd6947d437bac0b4f6size=2228
 file,ghost/master/dic00_common.txtca226b573f2031179369226946ddf39dsize=484
-file,ghost/master/dic01_main_vitreum.txt3e6be10a6ea4919508ca3041a0691271size=15272
+file,ghost/master/dic01_main_vitreum.txtf6752b1ca0052fc0872d5315b1121c2esize=16705
 file,ghost/master/dic02_string_vitreum.txt4059e58f055c0f167b8f7fbc05cbd06dsize=1289
 file,ghost/master/dic100_function_jp_vitreum.txtb9cc65868f1e0d8e281861ef8676aecdsize=18469
 file,ghost/master/dic101_words_jp_vitreum.txt7d0c8d7cd1e6a52a918193cbbf5c0b85size=18488
