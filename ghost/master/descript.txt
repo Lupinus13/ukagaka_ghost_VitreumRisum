@@ -1,4 +1,4 @@
-
+//ver0.26.0
 // ゴーストの設定を記述するファイル。
 // 詳しくはukadoc（http://ssp.shillest.net/ukadoc/manual/descript_ghost.html）へ。
 
@@ -50,5 +50,3 @@ kero.name,望まれるもの
 //------------------------------------------------------------------------------
 // アイコンを使用する場合、アイコンのファイル名を記述します。
 icon,icon_vitreum.ico
-
-homeurl,https://raw.githubusercontent.com/Lupinus13/ukagaka_ghost_VitreumRisum/master/
