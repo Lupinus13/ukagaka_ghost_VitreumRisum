@@ -54,7 +54,6 @@ sakura.bindgroup399.default,1
 
 //è‘O‚Ì‰Hª‚»‚Ì1
 sakura.bindoption.group,‰Hª_è‘O1,mustselect
-sakura.bindgroup600.name,‰Hª_è‘O1,00,wingr1_00.png
 sakura.bindgroup601.name,‰Hª_è‘O1,01,wingr1_01.png
 sakura.bindgroup602.name,‰Hª_è‘O1,02,wingr1_02.png
 sakura.bindgroup603.name,‰Hª_è‘O1,03,wingr1_03.png
@@ -82,11 +81,10 @@ sakura.bindgroup624.name,‰Hª_è‘O1,24,wingr1_24.png
 sakura.bindgroup625.name,‰Hª_è‘O1,25,wingr1_25.png
 sakura.bindgroup626.name,‰Hª_è‘O1,26,wingr1_26.png
 sakura.bindgroup627.name,‰Hª_è‘O1,27,wingr1_27.png
-sakura.bindgroup600.default,1
+sakura.bindgroup601.default,1
 
 //è‘O‚Ì‰Hª‚»‚Ì2
 sakura.bindoption.group,‰Hª_è‘O2,mustselect
-sakura.bindgroup500.name,‰Hª_è‘O2,00,wingr2_00.png
 sakura.bindgroup501.name,‰Hª_è‘O2,01,wingr2_01.png
 sakura.bindgroup502.name,‰Hª_è‘O2,02,wingr2_02.png
 sakura.bindgroup503.name,‰Hª_è‘O2,03,wingr2_03.png
@@ -114,11 +112,10 @@ sakura.bindgroup524.name,‰Hª_è‘O2,24,wingr2_24.png
 sakura.bindgroup525.name,‰Hª_è‘O2,25,wingr2_25.png
 sakura.bindgroup526.name,‰Hª_è‘O2,26,wingr2_26.png
 sakura.bindgroup527.name,‰Hª_è‘O2,27,wingr2_27.png
-sakura.bindgroup500.default,1
+sakura.bindgroup504.default,1
 
 //è‘O‚Ì‰Hª‚»‚Ì3
 sakura.bindoption.group,‰Hª_è‘O3,mustselect
-sakura.bindgroup400.name,‰Hª_è‘O3,00,wingr3_00.png
 sakura.bindgroup401.name,‰Hª_è‘O3,01,wingr3_01.png
 sakura.bindgroup402.name,‰Hª_è‘O3,02,wingr3_02.png
 sakura.bindgroup403.name,‰Hª_è‘O3,03,wingr3_03.png
@@ -146,11 +143,10 @@ sakura.bindgroup424.name,‰Hª_è‘O3,24,wingr3_24.png
 sakura.bindgroup425.name,‰Hª_è‘O3,25,wingr3_25.png
 sakura.bindgroup426.name,‰Hª_è‘O3,26,wingr3_26.png
 sakura.bindgroup427.name,‰Hª_è‘O3,27,wingr3_27.png
-sakura.bindgroup400.default,1
+sakura.bindgroup407.default,1
 
 //‰œ‘¤‚Ì‰Hª‚»‚Ì1
 sakura.bindoption.group,‰Hª_‰œ‘¤1,mustselect
-sakura.bindgroup300.name,‰Hª_‰œ‘¤1,00,wingl1_00.png
 sakura.bindgroup301.name,‰Hª_‰œ‘¤1,01,wingl1_01.png
 sakura.bindgroup302.name,‰Hª_‰œ‘¤1,02,wingl1_02.png
 sakura.bindgroup303.name,‰Hª_‰œ‘¤1,03,wingl1_03.png
@@ -178,11 +174,10 @@ sakura.bindgroup324.name,‰Hª_‰œ‘¤1,24,wingl1_24.png
 sakura.bindgroup325.name,‰Hª_‰œ‘¤1,25,wingl1_25.png
 sakura.bindgroup326.name,‰Hª_‰œ‘¤1,26,wingl1_26.png
 sakura.bindgroup327.name,‰Hª_‰œ‘¤1,27,wingl1_27.png
-sakura.bindgroup300.default,1
+sakura.bindgroup301.default,1
 
 //‰œ‘¤‚Ì‰Hª‚»‚Ì2
 sakura.bindoption.group,‰Hª_‰œ‘¤2,mustselect
-sakura.bindgroup200.name,‰Hª_‰œ‘¤2,00,wingl2_00.png
 sakura.bindgroup201.name,‰Hª_‰œ‘¤2,01,wingl2_01.png
 sakura.bindgroup202.name,‰Hª_‰œ‘¤2,02,wingl2_02.png
 sakura.bindgroup203.name,‰Hª_‰œ‘¤2,03,wingl2_03.png
@@ -210,11 +205,10 @@ sakura.bindgroup224.name,‰Hª_‰œ‘¤2,24,wingl2_24.png
 sakura.bindgroup225.name,‰Hª_‰œ‘¤2,25,wingl2_25.png
 sakura.bindgroup226.name,‰Hª_‰œ‘¤2,26,wingl2_26.png
 sakura.bindgroup227.name,‰Hª_‰œ‘¤2,27,wingl2_27.png
-sakura.bindgroup200.default,1
+sakura.bindgroup204.default,1
 
 //‰œ‘¤‚Ì‰Hª‚»‚Ì3
 sakura.bindoption.group,‰Hª_‰œ‘¤3,mustselect
-sakura.bindgroup100.name,‰Hª_‰œ‘¤3,00,wingl3_00.png
 sakura.bindgroup101.name,‰Hª_‰œ‘¤3,01,wingl3_01.png
 sakura.bindgroup102.name,‰Hª_‰œ‘¤3,02,wingl3_02.png
 sakura.bindgroup103.name,‰Hª_‰œ‘¤3,03,wingl3_03.png
@@ -242,7 +236,7 @@ sakura.bindgroup124.name,‰Hª_‰œ‘¤3,24,wingl3_24.png
 sakura.bindgroup125.name,‰Hª_‰œ‘¤3,25,wingl3_25.png
 sakura.bindgroup126.name,‰Hª_‰œ‘¤3,26,wingl3_26.png
 sakura.bindgroup127.name,‰Hª_‰œ‘¤3,27,wingl3_27.png
-sakura.bindgroup100.default,1
+sakura.bindgroup107.default,1
 
 
 

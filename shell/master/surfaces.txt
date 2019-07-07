@@ -42,9 +42,6 @@ surface10
 surface.append0,1
 {
 	//wingl1
-	animation300.interval,bind
-	animation300.pattern0,overlay,300,0,0,0
-
 	animation301.interval,bind
 	animation301.pattern0,overlay,301,0,0,0
 
@@ -128,9 +125,6 @@ surface.append0,1
 
 
 	//wingl2
-	animation200.interval,bind
-	animation200.pattern0,overlay,200,0,0,0
-
 	animation201.interval,bind
 	animation201.pattern0,overlay,201,0,0,0
 
@@ -214,9 +208,6 @@ surface.append0,1
 
 
 	//wingl3
-	animation100.interval,bind
-	animation100.pattern0,overlay,100,0,0,0
-
 	animation101.interval,bind
 	animation101.pattern0,overlay,101,0,0,0
 
@@ -308,9 +299,6 @@ surface.append0,1
 surface.append0,1
 {
 	//wingr1
-	animation600.interval,bind
-	animation600.pattern0,overlay,600,0,0,0
-
 	animation601.interval,bind
 	animation601.pattern0,overlay,601,0,0,0
 
@@ -394,9 +382,6 @@ surface.append0,1
 
 
 	//wingr2
-	animation500.interval,bind
-	animation500.pattern0,overlay,500,0,0,0
-
 	animation501.interval,bind
 	animation501.pattern0,overlay,501,0,0,0
 
@@ -480,9 +465,6 @@ surface.append0,1
 
 
 	//wingr3
-	animation400.interval,bind
-	animation400.pattern0,overlay,400,0,0,0
-
 	animation401.interval,bind
 	animation401.pattern0,overlay,401,0,0,0
 
@@ -568,11 +550,6 @@ surface.append0,1
 
 
 //着せ替え用サーフェスの用意
-surface600
-{
-	element0,base,wingr1_00.png,0,0
-}
-
 surface601
 {
 	element0,base,wingr1_01.png,0,0
@@ -708,11 +685,6 @@ surface627
 	element0,base,wingr1_27.png,0,0
 }
 
-
-surface500
-{
-	element0,base,wingr2_00.png,0,0
-}
 
 surface501
 {
@@ -850,11 +822,6 @@ surface527
 }
 
 
-
-surface400
-{
-	element0,base,wingr3_00.png,0,0
-}
 
 surface401
 {
@@ -1000,11 +967,6 @@ surface399
 
 
 
-surface300
-{
-	element0,base,wingl1_00.png,0,0
-}
-
 surface301
 {
 	element0,base,wingl1_01.png,0,0
@@ -1143,11 +1105,6 @@ surface327
 
 
 
-surface200
-{
-	element0,base,wingl2_00.png,0,0
-}
-
 surface201
 {
 	element0,base,wingl2_01.png,0,0
@@ -1284,11 +1241,6 @@ surface227
 }
 
 
-
-surface100
-{
-	element0,base,wingl3_00.png,0,0
-}
 
 surface101
 {
