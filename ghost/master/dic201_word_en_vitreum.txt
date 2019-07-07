@@ -1,4 +1,4 @@
-＃ver0.26.1
+＃ver0.26.3
 ＃英語単語リスト
 
 ＠en数詞
@@ -40,6 +40,7 @@ a,dark
 a,deep
 an,empty
 a,happy
+a,heavy
 a,large
 a,lucid
 a,natural
@@ -82,20 +83,21 @@ a,white
 ＠en名詞リスト
 an,agate,cu,r,
 an,alexandrite,cu,r,
+an,answer,c,r,
 an,aquamarine,cu,r,
 a,book,c,r,
 a,carnelian,cu,r,
 a,celestite,cu,r,
 a,citrine,cu,r,
 a,clock,c,r,
-a,conversation,u,,
+a,conversation,u,none,
 a,cup,c,r,
 a,curse,c,r,
 a,daisy,c,r,
 a,dark,cu,r,
 a,daydream,c,r,
 a,disappointment,cu,r,
-a,drink,u,,
+a,drink,u,none,
 an,egg,c,r,
 an,emerald,cu,r,
 a,fear,cu,r,
@@ -106,29 +108,29 @@ a,home,cu,r,
 a,hurt,cu,r,
 an,iolite,cu,r,
 a,map,c,r,
-a,marmalade,u,,
+a,marmalade,u,none,
 a,mirror,c,r,
 a,moment,c,r,
-a,music,u,,
+a,music,u,none,
 a,nature,cu,r,
 a,needle,c,r,
 an,orange,cu,r,
 a,picture,c,r,
-a,pleasure,u,,
+a,pleasure,u,none,
+a,question,cu,r,
 a,rabbit,c,r,
 a,sand,cu,r,
 a,scissor,p,r,
 a,sheep,c,i,sheep
 a,shelf,c,r,
-a,sleep,u,,
+a,sleep,u,none,
 a,stair,c,r,
 a,sweet,cu,r,
-a,time,u,,
-a,trouble,u,,
-a,water,u,,
+a,time,u,none,
+a,trouble,u,none,
+a,water,u,none,
 a,wonder,cu,r,
 a,world,c,r,
-
 
 
 ＠en名詞めもてき
@@ -158,6 +160,7 @@ suddenly
 （call,en動詞セット,（en動詞a_なかみ））
 
 ＠en動詞a_なかみ
+a,answer,1,,
 a,break,0,broke,broken
 a,come,0,came,come
 a,cry,3,,
@@ -184,6 +187,7 @@ a,wonder,1,,
 （call,en動詞セット,（en動詞c_なかみ））
 
 ＠en動詞c_なかみ
+a,answer,1,,
 a,bite,0,bit,bitten
 a,break,0,broke,broken
 a,catch,0,caught,caught
@@ -210,5 +214,6 @@ a,meet,0,met,met
 a,mirror,1,,
 a,mix,1,,
 a,pick,1,,
+a,question,1,,
 a,sand,1,,
 a,slow,1,,
