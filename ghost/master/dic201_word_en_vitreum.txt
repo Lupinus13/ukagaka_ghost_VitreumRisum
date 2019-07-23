@@ -1,4 +1,4 @@
-＃ver0.26.3
+＃ver0.26.7
 ＃英語単語リスト
 
 ＠en数詞
@@ -29,38 +29,61 @@ she（set,en主語単複,単数）
 it（set,en主語単複,単数）
 
 ＠en形容詞
-（call,en形容詞セット,（合成単語群,en形容詞_一般,en形容詞_色））
+（call,en形容詞セット,（合成単語群,en形容詞_R_N,en形容詞_RP_N,en形容詞_RP_C））
 
-＠en形容詞_一般
-a,beautiful
-a,big
-a,bright
-a,cute
-a,dark
-a,deep
-an,empty
-a,happy
-a,heavy
-a,large
-a,lucid
-a,natural
-a,next
-a,sleepy
-a,slow
-a,small
-a,sweet
 
-＠en形容詞_色
-an,aquamarine
-a,black
-a,blue
-a,citrine
-an,emerald
-a,marmalade
-an,orange
-a,pink
-a,red
-a,white
+＠en形容詞_限定用法
+（call,en形容詞セット,（合成単語群,en形容詞_R_N,en形容詞_RP_N,en形容詞_RP_C））
+
+＠en形容詞_叙述用法
+（call,en形容詞セット,（合成単語群,en形容詞_RP_N,en形容詞_RP_C））
+
+＃（Ａ２）＝	0	：ない
+＃			1	：more
+＃			2	：er
+＃			3	：(e)r
+＃			4	：（y⇒i）er
+＃			5	：（t⇒tt）er
+＠en形容詞_R_N
+an,apricot,0
+an,aquamarine,0
+a,chocolate,0
+a,citrine,0
+an,emerald,0
+a,honey,0
+a,marmalade,0
+
+＃＠en形容詞_P_C
+
+＃＠en形容詞_P_N
+
+＠en形容詞_RP_C
+a,beautiful,1
+a,big,5
+a,black,2
+a,blue,3
+a,bright,2
+a,cute,3
+a,dark,2
+a,deep,2
+an,empty,4
+a,happy,4
+a,heavy,4
+a,large,3
+a,lucid,1
+a,natural,1
+a,pink,2
+a,red,5
+a,sleepy,4
+a,slow,2
+a,small,2
+a,sweet,2
+a,white,3
+
+＠en形容詞_RP_N
+a,next,0
+an,orange,0
+
 
 
 ＠enめもてき
@@ -84,13 +107,23 @@ a,white
 an,agate,cu,r,
 an,alexandrite,cu,r,
 an,answer,c,r,
+an,apricot,c,r,
 an,aquamarine,cu,r,
 a,book,c,r,
+a,bread,u,none,
+a,candy,cu,r,
+a,cappuccino,c,r,
 a,carnelian,cu,r,
 a,celestite,cu,r,
+a,cherry,c,r,
+a,chocolate,cu,r,
 a,citrine,cu,r,
 a,clock,c,r,
+a,cocktail,cu,r,
+a,coffee,u,none,
+a,cola,cu,r,
 a,conversation,u,none,
+a,cookie,c,r,
 a,cup,c,r,
 a,curse,c,r,
 a,daisy,c,r,
@@ -100,15 +133,23 @@ a,disappointment,cu,r,
 a,drink,u,none,
 an,egg,c,r,
 an,emerald,cu,r,
+a,espresso,cu,r,
 a,fear,cu,r,
 a,fight,c,r,
 a,fish,c,i,fish
+a,grape,cu,r,
+a,grapefruit,c,r,
 a,heliodor,cu,r,
 a,home,cu,r,
+a,honey,u,none,
 a,hurt,cu,r,
 an,iolite,cu,r,
+a,jelly,cu,r,
+a,juice,cu,r,
+a,lemon,c,r,
 a,map,c,r,
 a,marmalade,u,none,
+a,milk,u,none,
 a,mirror,c,r,
 a,moment,c,r,
 a,music,u,none,
@@ -117,6 +158,7 @@ a,needle,c,r,
 an,orange,cu,r,
 a,picture,c,r,
 a,pleasure,u,none,
+a,pumpkin,cu,r,
 a,question,cu,r,
 a,rabbit,c,r,
 a,sand,cu,r,
@@ -124,8 +166,11 @@ a,scissor,p,r,
 a,sheep,c,i,sheep
 a,shelf,c,r,
 a,sleep,u,none,
+a,soda,cu,r,
+a,soup,cu,r,
 a,stair,c,r,
 a,sweet,cu,r,
+a,tea,cu,r,
 a,time,u,none,
 a,trouble,u,none,
 a,water,u,none,
