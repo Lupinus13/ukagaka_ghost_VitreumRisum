@@ -1,4 +1,4 @@
-＃ver0.26.8
+＃ver0.27.5
 ＃英語単語リスト
 
 ＠en数詞
@@ -12,16 +12,22 @@ ten
 
 ＠en所有格
 my
-your
 his
 her
 our
 their
 
+＠en所有格	（二人称トークふらぐ）＝＝1
+your
 
-＠en主語代名詞
+
+＠en主語代名詞_1
 I（set,en主語単複,単数）（set,en主語人称,1）
+
+＠en主語代名詞_2	（二人称トークふらぐ）＝＝1
 you（set,en主語単複,単数）（set,en主語人称,2）
+
+＠en主語代名詞_3
 we（set,en主語単複,複数）
 they（set,en主語単複,複数）
 he（set,en主語単複,単数）
