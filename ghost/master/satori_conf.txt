@@ -1,4 +1,4 @@
-”ver0.27.8
+”ver0.26.0
 ””””””””””””””””””””””””””””””””””””””””
 ”
 ”@•Ï”“™‚Ì‰Šú‰»B
@@ -80,6 +80,5 @@
 
 —SAORI
 aya,saori/yaya.dll
-kisaragi,saori/\kisaragi\kisaragi.dll
 softalk,saori/\softalk\SofTalk.exe
 saori_test,saori/\test\Saori_test.exe
