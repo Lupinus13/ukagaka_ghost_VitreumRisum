@@ -1,13 +1,5 @@
-＃ver0.26.0
+＃ver0.28.2
 ＃
-＃shiori互換dll『里々（さとり）』用辞書 
-＃　メニューのボタン名とか。
-＃　ネットワーク更新の際のデータ置き場とか。
-＃　おすすめ／ポータルのURLの一覧とか。
-＃　
-＃　このテンプレートにはコメントや注釈がたくさん書いてあり、
-＃　コメントが邪魔になることもあるでしょう。
-＃　このゴーストの辞書を削って、「自分用のテンプレート」を作ると良いです。
 ＃
 ＃ネットワーク更新先
 ＠homeurl
@@ -15,46 +7,3 @@ https://raw.githubusercontent.com/Lupinus13/ukagaka_ghost_VitreumRisum/master/
 
 ＠username
 （ユーザ名）
-
-＃右クリックメニュー
-
-＃本体側のおすすめサイト
-＃
-＃＊sakura.recommendsites
-＃１行目がサイト名
-＃２行目がジャンプ先URL
-＃３行目がバナーURL（省略可）
-＃４行目以降はジャンプ時に表示される会話文（省略可）
-
-＃＊sakura.recommendsites
-
-
-＃本体側のポータルサイト
-＃
-＃＊sakura.portalsites
-＃１行目がサイト名
-＃２行目がジャンプ先URL
-＃３行目がバナーURL（省略可）
-＃４行目以降はジャンプ時に表示される会話文（省略可）
-＃「-」のみの項目を作ることでリンクメニューに罫線を引くことができます。 
-
-＃＊sakura.portalsites
-
-
-＃＊kero.recommendsites
-＃＊kero.portalsites
-
-
-＃右クリックメニューのボタン名称変更
-
-＃＠portalrootbutton.caption
-
-＃＠recommendrootbutton.caption
-
-＃＠kero.recommendbuttoncaption
-
-＃＠updatebutton.caption
-
-＃＠vanishbutton.caption
-
-＃＠readmebutton.caption
