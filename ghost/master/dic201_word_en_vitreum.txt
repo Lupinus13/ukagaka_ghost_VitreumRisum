@@ -1,4 +1,4 @@
-＃ver0.28.2
+＃ver0.28.8
 ＃英語単語リスト
 
 ＠en数詞
@@ -53,11 +53,16 @@ it（set,en主語単複,単数）
 ＠en形容詞_R_N
 an,apricot,0
 an,aquamarine,0
+a,carnation,0
 a,chocolate,0
 a,citrine,0
 an,emerald,0
 a,honey,0
+a,lilac,0
+a,lily,0
 a,marmalade,0
+a,rose,0
+a,shadow,0
 
 ＃＠en形容詞_P_C
 
@@ -117,10 +122,13 @@ an,apricot,c,r,
 an,aquamarine,cu,r,
 a,bear,c,r,
 a,bird,c,r,
+a,bloom,cu,r,
+a,blossom,cu,r,
 a,book,c,r,
 a,bread,u,none,
 a,candy,cu,r,
 a,cappuccino,c,r,
+a,carnation,cu,r,
 a,carnelian,cu,r,
 a,celestite,cu,r,
 a,cherry,c,r,
@@ -131,8 +139,10 @@ a,clock,c,r,
 a,cocktail,cu,r,
 a,coffee,u,none,
 a,cola,cu,r,
+a,contour,c,r,
 a,conversation,u,none,
 a,cookie,c,r,
+a,cosmos,c,r,
 a,crow,c,r,
 a,cup,c,r,
 a,curse,c,r,
@@ -150,7 +160,11 @@ a,espresso,cu,r,
 a,fear,cu,r,
 a,fight,c,r,
 a,fish,c,i,fish
+a,flower,cu,r,
 a,fox,c,r,
+a,fragment,c,r,
+a,gentian,cu,r,
+a,gerbera,c,r,
 a,goat,c,r,
 a,grape,cu,r,
 a,grapefruit,c,r,
@@ -163,6 +177,8 @@ a,jelly,cu,r,
 a,jellyfish,c,i,jellyfish
 a,juice,cu,r,
 a,lemon,c,r,
+a,lilac,cu,r,
+a,lily,c,r,
 a,map,c,r,
 a,marmalade,u,none,
 a,milk,u,none,
@@ -174,17 +190,22 @@ a,nature,cu,r,
 a,needle,c,r,
 an,octopus,c,r,
 an,orange,cu,r,
+an,outline,c,r,
 a,owl,c,r,
+a,pansy,c,r,
 a,penguin,c,r,
 a,picture,c,r,
 a,pig,cu,r,
 a,pigeon,c,r,
+a,pillow,c,r,
 a,pleasure,u,none,
 a,pumpkin,cu,r,
 a,question,cu,r,
 a,rabbit,c,r,
+a,rose,cu,r,
 a,sand,cu,r,
 a,scissor,p,r,
+a,shadow,cu,r,
 a,sheep,c,i,sheep
 a,shelf,c,r,
 a,shrimp,c,r,
@@ -193,12 +214,14 @@ a,soda,cu,r,
 a,soup,cu,r,
 a,sparrow,c,r,
 a,stair,c,r,
+a,sunflower,c,r,
 a,swan,c,r,
 a,sweet,cu,r,
 a,tea,cu,r,
 a,tiger,c,r,
 a,time,u,none,
 a,trouble,u,none,
+a,tulip,c,r,
 a,turtle,c,r,
 a,water,u,none,
 a,wolf,c,r,
@@ -234,12 +257,14 @@ suddenly
 
 ＠en動詞a_なかみ
 a,answer,1,,
+a,blossom,1,,
 a,break,0,broke,broken
 a,come,0,came,come
 a,cry,3,,
 a,daydream,1,,
 an,empty,3,,
 an,end,1,,
+a,flower,1,,
 a,go,0,went,gone
 a,grow,0,grew,grown
 an,increase,2,,
@@ -262,8 +287,10 @@ a,wonder,1,,
 ＠en動詞c_なかみ
 a,answer,1,,
 a,bite,0,bit,bitten
+a,bloom,1,,
 a,break,0,broke,broken
 a,catch,0,caught,caught
+a,contour,1,,
 a,curse,2,,
 a,cut,0,cut,cut
 a,doubt,1,,
@@ -275,8 +302,10 @@ a,fear,1,,
 a,fight,0,fought,fought
 a,find,0,found,found
 a,fix,1,,
+a,flower,1,,
 a,forget,0,forgot,forgotten
 a,forgive,0,forgave,forgiven
+a,fragment,1,,
 a,grind,0,ground,ground
 a,hear,0,heard,heard
 a,hide,0,hid,hidden
@@ -287,7 +316,9 @@ a,love,2,,
 a,meet,0,met,met
 a,mirror,1,,
 a,mix,1,,
+an,outline,2,,
 a,pick,1,,
 a,question,1,,
 a,sand,1,,
+a,shadow,1,,
 a,slow,1,,
