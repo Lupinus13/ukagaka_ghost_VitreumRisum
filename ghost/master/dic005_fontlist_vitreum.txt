@@ -1,0 +1,1241 @@
+＃ver0.28.9
+＃フォント一覧（ブロック別）
+
+＃注意事項：ユーザ編集について
+＃各自自分の好きなフォント名を記述しておくことで、
+＃ほにゃく時に好きなフォントを用いることができます。
+
+
+
+＃ Basic Latin
+＠フォントリスト	（Glyph_ID_10）＞＝0＆＆（Glyph_ID_10）＜＝127
+游明朝
+
+＃ Latin-1 Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝128＆＆（Glyph_ID_10）＜＝255
+
+
+＃ Latin Extended-A
+＠フォントリスト	（Glyph_ID_10）＞＝256＆＆（Glyph_ID_10）＜＝383
+
+
+＃ Latin Extended-B
+＠フォントリスト	（Glyph_ID_10）＞＝384＆＆（Glyph_ID_10）＜＝591
+
+
+＃ IPA Extensions
+＠フォントリスト	（Glyph_ID_10）＞＝592＆＆（Glyph_ID_10）＜＝687
+
+
+＃ Spacing Modifier Letters
+＠フォントリスト	（Glyph_ID_10）＞＝688＆＆（Glyph_ID_10）＜＝767
+
+
+＃ Combining Diacritical Marks
+＠フォントリスト	（Glyph_ID_10）＞＝768＆＆（Glyph_ID_10）＜＝879
+
+
+＃ Greek and Coptic
+＠フォントリスト	（Glyph_ID_10）＞＝880＆＆（Glyph_ID_10）＜＝1023
+
+
+＃ Cyrillic
+＠フォントリスト	（Glyph_ID_10）＞＝1024＆＆（Glyph_ID_10）＜＝1279
+
+
+＃ Cyrillic Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝1280＆＆（Glyph_ID_10）＜＝1327
+
+
+＃ Armenian
+＠フォントリスト	（Glyph_ID_10）＞＝1328＆＆（Glyph_ID_10）＜＝1423
+
+
+＃ Hebrew
+＠フォントリスト	（Glyph_ID_10）＞＝1424＆＆（Glyph_ID_10）＜＝1535
+
+
+＃ Arabic
+＠フォントリスト	（Glyph_ID_10）＞＝1536＆＆（Glyph_ID_10）＜＝1791
+
+
+＃ Syriac
+＠フォントリスト	（Glyph_ID_10）＞＝1792＆＆（Glyph_ID_10）＜＝1871
+
+
+＃ Arabic Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝1872＆＆（Glyph_ID_10）＜＝1919
+
+
+＃ Thaana
+＠フォントリスト	（Glyph_ID_10）＞＝1920＆＆（Glyph_ID_10）＜＝1983
+
+
+＃ NKo
+＠フォントリスト	（Glyph_ID_10）＞＝1984＆＆（Glyph_ID_10）＜＝2047
+
+
+＃ Samaritan
+＠フォントリスト	（Glyph_ID_10）＞＝2048＆＆（Glyph_ID_10）＜＝2111
+
+
+＃ Mandaic
+＠フォントリスト	（Glyph_ID_10）＞＝2112＆＆（Glyph_ID_10）＜＝2143
+
+
+＃ Syriac Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝2144＆＆（Glyph_ID_10）＜＝2159
+
+
+＃ Arabic Extended-A
+＠フォントリスト	（Glyph_ID_10）＞＝2208＆＆（Glyph_ID_10）＜＝2303
+
+
+＃ Devanagari
+＠フォントリスト	（Glyph_ID_10）＞＝2304＆＆（Glyph_ID_10）＜＝2431
+
+
+＃ Bengali
+＠フォントリスト	（Glyph_ID_10）＞＝2432＆＆（Glyph_ID_10）＜＝2559
+
+
+＃ Gurmukhi
+＠フォントリスト	（Glyph_ID_10）＞＝2560＆＆（Glyph_ID_10）＜＝2687
+
+
+＃ Gujarati
+＠フォントリスト	（Glyph_ID_10）＞＝2688＆＆（Glyph_ID_10）＜＝2815
+
+
+＃ Oriya
+＠フォントリスト	（Glyph_ID_10）＞＝2816＆＆（Glyph_ID_10）＜＝2943
+
+
+＃ Tamil
+＠フォントリスト	（Glyph_ID_10）＞＝2944＆＆（Glyph_ID_10）＜＝3071
+
+
+＃ Telugu
+＠フォントリスト	（Glyph_ID_10）＞＝3072＆＆（Glyph_ID_10）＜＝3199
+
+
+＃ Kannada
+＠フォントリスト	（Glyph_ID_10）＞＝3200＆＆（Glyph_ID_10）＜＝3327
+
+
+＃ Malayalam
+＠フォントリスト	（Glyph_ID_10）＞＝3328＆＆（Glyph_ID_10）＜＝3455
+
+
+＃ Sinhala
+＠フォントリスト	（Glyph_ID_10）＞＝3456＆＆（Glyph_ID_10）＜＝3583
+
+
+＃ Thai
+＠フォントリスト	（Glyph_ID_10）＞＝3584＆＆（Glyph_ID_10）＜＝3711
+
+
+＃ Lao
+＠フォントリスト	（Glyph_ID_10）＞＝3712＆＆（Glyph_ID_10）＜＝3839
+
+
+＃ Tibetan
+＠フォントリスト	（Glyph_ID_10）＞＝3840＆＆（Glyph_ID_10）＜＝4095
+
+
+＃ Myanmar
+＠フォントリスト	（Glyph_ID_10）＞＝4096＆＆（Glyph_ID_10）＜＝4255
+
+
+＃ Georgian
+＠フォントリスト	（Glyph_ID_10）＞＝4256＆＆（Glyph_ID_10）＜＝4351
+
+
+＃ Hangul Jamo
+＠フォントリスト	（Glyph_ID_10）＞＝4352＆＆（Glyph_ID_10）＜＝4607
+
+
+＃ Ethiopic
+＠フォントリスト	（Glyph_ID_10）＞＝4608＆＆（Glyph_ID_10）＜＝4991
+
+
+＃ Ethiopic Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝4992＆＆（Glyph_ID_10）＜＝5023
+
+
+＃ Cherokee
+＠フォントリスト	（Glyph_ID_10）＞＝5024＆＆（Glyph_ID_10）＜＝5119
+
+
+＃ Unified Canadian Aboriginal Syllabics
+＠フォントリスト	（Glyph_ID_10）＞＝5120＆＆（Glyph_ID_10）＜＝5759
+
+
+＃ Ogham
+＠フォントリスト	（Glyph_ID_10）＞＝5760＆＆（Glyph_ID_10）＜＝5791
+
+
+＃ Runic
+＠フォントリスト	（Glyph_ID_10）＞＝5792＆＆（Glyph_ID_10）＜＝5887
+
+
+＃ Tagalog
+＠フォントリスト	（Glyph_ID_10）＞＝5888＆＆（Glyph_ID_10）＜＝5919
+
+
+＃ Hanunoo
+＠フォントリスト	（Glyph_ID_10）＞＝5920＆＆（Glyph_ID_10）＜＝5951
+
+
+＃ Buhid
+＠フォントリスト	（Glyph_ID_10）＞＝5952＆＆（Glyph_ID_10）＜＝5983
+
+
+＃ Tagbanwa
+＠フォントリスト	（Glyph_ID_10）＞＝5984＆＆（Glyph_ID_10）＜＝6015
+
+
+＃ Khmer
+＠フォントリスト	（Glyph_ID_10）＞＝6016＆＆（Glyph_ID_10）＜＝6143
+
+
+＃ Mongolian
+＠フォントリスト	（Glyph_ID_10）＞＝6144＆＆（Glyph_ID_10）＜＝6319
+
+
+＃ Unified Canadian Aboriginal Syllabics Extended
+＠フォントリスト	（Glyph_ID_10）＞＝6320＆＆（Glyph_ID_10）＜＝6399
+
+
+＃ Limbu
+＠フォントリスト	（Glyph_ID_10）＞＝6400＆＆（Glyph_ID_10）＜＝6479
+
+
+＃ Tai Le
+＠フォントリスト	（Glyph_ID_10）＞＝6480＆＆（Glyph_ID_10）＜＝6527
+
+
+＃ New Tai Lue
+＠フォントリスト	（Glyph_ID_10）＞＝6528＆＆（Glyph_ID_10）＜＝6623
+
+
+＃ Khmer Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝6624＆＆（Glyph_ID_10）＜＝6655
+
+
+＃ Buginese
+＠フォントリスト	（Glyph_ID_10）＞＝6656＆＆（Glyph_ID_10）＜＝6687
+
+
+＃ Tai Tham
+＠フォントリスト	（Glyph_ID_10）＞＝6688＆＆（Glyph_ID_10）＜＝6831
+
+
+＃ Combining Diacritical Marks Extended
+＠フォントリスト	（Glyph_ID_10）＞＝6832＆＆（Glyph_ID_10）＜＝6911
+
+
+＃ Balinese
+＠フォントリスト	（Glyph_ID_10）＞＝6912＆＆（Glyph_ID_10）＜＝7039
+
+
+＃ Sundanese
+＠フォントリスト	（Glyph_ID_10）＞＝7040＆＆（Glyph_ID_10）＜＝7103
+
+
+＃ Batak
+＠フォントリスト	（Glyph_ID_10）＞＝7104＆＆（Glyph_ID_10）＜＝7167
+
+
+＃ Lepcha
+＠フォントリスト	（Glyph_ID_10）＞＝7168＆＆（Glyph_ID_10）＜＝7247
+
+
+＃ Ol Chiki
+＠フォントリスト	（Glyph_ID_10）＞＝7248＆＆（Glyph_ID_10）＜＝7295
+
+
+＃ Cyrillic Extended-C
+＠フォントリスト	（Glyph_ID_10）＞＝7296＆＆（Glyph_ID_10）＜＝7311
+
+
+＃ Georgian Extended
+＠フォントリスト	（Glyph_ID_10）＞＝7312＆＆（Glyph_ID_10）＜＝7359
+
+
+＃ Sundanese Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝7360＆＆（Glyph_ID_10）＜＝7375
+
+
+＃ Vedic Extensions
+＠フォントリスト	（Glyph_ID_10）＞＝7376＆＆（Glyph_ID_10）＜＝7423
+
+
+＃ Phonetic Extensions
+＠フォントリスト	（Glyph_ID_10）＞＝7424＆＆（Glyph_ID_10）＜＝7551
+
+
+＃ Phonetic Extensions Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝7552＆＆（Glyph_ID_10）＜＝7615
+
+
+＃ Combining Diacritical Marks Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝7616＆＆（Glyph_ID_10）＜＝7679
+
+
+＃ Latin Extended Additional
+＠フォントリスト	（Glyph_ID_10）＞＝7680＆＆（Glyph_ID_10）＜＝7935
+
+
+＃ Greek Extended
+＠フォントリスト	（Glyph_ID_10）＞＝7936＆＆（Glyph_ID_10）＜＝8191
+
+
+＃ General Punctuation
+＠フォントリスト	（Glyph_ID_10）＞＝8192＆＆（Glyph_ID_10）＜＝8303
+
+
+＃ Superscripts and Subscripts
+＠フォントリスト	（Glyph_ID_10）＞＝8304＆＆（Glyph_ID_10）＜＝8351
+
+
+＃ Currency Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝8352＆＆（Glyph_ID_10）＜＝8399
+
+
+＃ Combining Diacritical Marks for Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝8400＆＆（Glyph_ID_10）＜＝8447
+
+
+＃ Letterlike Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝8448＆＆（Glyph_ID_10）＜＝8527
+
+
+＃ Number Forms
+＠フォントリスト	（Glyph_ID_10）＞＝8528＆＆（Glyph_ID_10）＜＝8591
+
+
+＃ Arrows
+＠フォントリスト	（Glyph_ID_10）＞＝8592＆＆（Glyph_ID_10）＜＝8703
+
+
+＃ Mathematical Operators
+＠フォントリスト	（Glyph_ID_10）＞＝8704＆＆（Glyph_ID_10）＜＝8959
+
+
+＃ Miscellaneous Technical
+＠フォントリスト	（Glyph_ID_10）＞＝8960＆＆（Glyph_ID_10）＜＝9215
+
+
+＃ Control Pictures
+＠フォントリスト	（Glyph_ID_10）＞＝9216＆＆（Glyph_ID_10）＜＝9279
+
+
+＃ Optical Character Recognition
+＠フォントリスト	（Glyph_ID_10）＞＝9280＆＆（Glyph_ID_10）＜＝9311
+
+
+＃ Enclosed Alphanumerics
+＠フォントリスト	（Glyph_ID_10）＞＝9312＆＆（Glyph_ID_10）＜＝9471
+
+
+＃ Box Drawing
+＠フォントリスト	（Glyph_ID_10）＞＝9472＆＆（Glyph_ID_10）＜＝9599
+
+
+＃ Block Elements
+＠フォントリスト	（Glyph_ID_10）＞＝9600＆＆（Glyph_ID_10）＜＝9631
+
+
+＃ Geometric Shapes
+＠フォントリスト	（Glyph_ID_10）＞＝9632＆＆（Glyph_ID_10）＜＝9727
+
+
+＃ Miscellaneous Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝9728＆＆（Glyph_ID_10）＜＝9983
+
+
+＃ Dingbats
+＠フォントリスト	（Glyph_ID_10）＞＝9984＆＆（Glyph_ID_10）＜＝10175
+
+
+＃ Miscellaneous Mathematical Symbols-A
+＠フォントリスト	（Glyph_ID_10）＞＝10176＆＆（Glyph_ID_10）＜＝10223
+
+
+＃ Supplemental Arrows-A
+＠フォントリスト	（Glyph_ID_10）＞＝10224＆＆（Glyph_ID_10）＜＝10239
+
+
+＃ Braille Patterns
+＠フォントリスト	（Glyph_ID_10）＞＝10240＆＆（Glyph_ID_10）＜＝10495
+
+
+＃ Supplemental Arrows-B
+＠フォントリスト	（Glyph_ID_10）＞＝10496＆＆（Glyph_ID_10）＜＝10623
+
+
+＃ Miscellaneous Mathematical Symbols-B
+＠フォントリスト	（Glyph_ID_10）＞＝10624＆＆（Glyph_ID_10）＜＝10751
+
+
+＃ Supplemental Mathematical Operators
+＠フォントリスト	（Glyph_ID_10）＞＝10752＆＆（Glyph_ID_10）＜＝11007
+
+
+＃ Miscellaneous Symbols and Arrows
+＠フォントリスト	（Glyph_ID_10）＞＝11008＆＆（Glyph_ID_10）＜＝11263
+
+
+＃ Glagolitic
+＠フォントリスト	（Glyph_ID_10）＞＝11264＆＆（Glyph_ID_10）＜＝11359
+
+
+＃ Latin Extended-C
+＠フォントリスト	（Glyph_ID_10）＞＝11360＆＆（Glyph_ID_10）＜＝11391
+
+
+＃ Coptic
+＠フォントリスト	（Glyph_ID_10）＞＝11392＆＆（Glyph_ID_10）＜＝11519
+
+
+＃ Georgian Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝11520＆＆（Glyph_ID_10）＜＝11567
+
+
+＃ Tifinagh
+＠フォントリスト	（Glyph_ID_10）＞＝11568＆＆（Glyph_ID_10）＜＝11647
+
+
+＃ Ethiopic Extended
+＠フォントリスト	（Glyph_ID_10）＞＝11648＆＆（Glyph_ID_10）＜＝11743
+
+
+＃ Cyrillic Extended-A
+＠フォントリスト	（Glyph_ID_10）＞＝11744＆＆（Glyph_ID_10）＜＝11775
+
+
+＃ Supplemental Punctuation
+＠フォントリスト	（Glyph_ID_10）＞＝11776＆＆（Glyph_ID_10）＜＝11903
+
+
+＃ CJK Radicals Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝11904＆＆（Glyph_ID_10）＜＝12031
+
+
+＃ Kangxi Radicals
+＠フォントリスト	（Glyph_ID_10）＞＝12032＆＆（Glyph_ID_10）＜＝12255
+
+
+＃ Ideographic Description Characters
+＠フォントリスト	（Glyph_ID_10）＞＝12272＆＆（Glyph_ID_10）＜＝12287
+
+
+＃ CJK Symbols and Punctuation
+＠フォントリスト	（Glyph_ID_10）＞＝12288＆＆（Glyph_ID_10）＜＝12351
+
+
+＃ Hiragana
+＠フォントリスト	（Glyph_ID_10）＞＝12352＆＆（Glyph_ID_10）＜＝12447
+あんずもじ
+
+＃ Katakana
+＠フォントリスト	（Glyph_ID_10）＞＝12448＆＆（Glyph_ID_10）＜＝12543
+アームドレモン
+
+＃ Bopomofo
+＠フォントリスト	（Glyph_ID_10）＞＝12544＆＆（Glyph_ID_10）＜＝12591
+
+
+＃ Hangul Compatibility Jamo
+＠フォントリスト	（Glyph_ID_10）＞＝12592＆＆（Glyph_ID_10）＜＝12687
+
+
+＃ Kanbun
+＠フォントリスト	（Glyph_ID_10）＞＝12688＆＆（Glyph_ID_10）＜＝12703
+
+
+＃ Bopomofo Extended
+＠フォントリスト	（Glyph_ID_10）＞＝12704＆＆（Glyph_ID_10）＜＝12735
+
+
+＃ CJK Strokes
+＠フォントリスト	（Glyph_ID_10）＞＝12736＆＆（Glyph_ID_10）＜＝12783
+
+
+＃ Katakana Phonetic Extensions
+＠フォントリスト	（Glyph_ID_10）＞＝12784＆＆（Glyph_ID_10）＜＝12799
+
+
+＃ Enclosed CJK Letters and Months
+＠フォントリスト	（Glyph_ID_10）＞＝12800＆＆（Glyph_ID_10）＜＝13055
+
+
+＃ CJK Compatibility
+＠フォントリスト	（Glyph_ID_10）＞＝13056＆＆（Glyph_ID_10）＜＝13311
+
+
+＃ CJK Unified Ideographs Extension A
+＠フォントリスト	（Glyph_ID_10）＞＝13312＆＆（Glyph_ID_10）＜＝19903
+
+
+＃ Yijing Hexagram Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝19904＆＆（Glyph_ID_10）＜＝19967
+
+
+＃ CJK Unified Ideographs
+＠フォントリスト	（Glyph_ID_10）＞＝19968＆＆（Glyph_ID_10）＜＝40959
+
+
+＃ Yi Syllables
+＠フォントリスト	（Glyph_ID_10）＞＝40960＆＆（Glyph_ID_10）＜＝42127
+
+
+＃ Yi Radicals
+＠フォントリスト	（Glyph_ID_10）＞＝42128＆＆（Glyph_ID_10）＜＝42191
+
+
+＃ Lisu
+＠フォントリスト	（Glyph_ID_10）＞＝42192＆＆（Glyph_ID_10）＜＝42239
+
+
+＃ Vai
+＠フォントリスト	（Glyph_ID_10）＞＝42240＆＆（Glyph_ID_10）＜＝42559
+
+
+＃ Cyrillic Extended-B
+＠フォントリスト	（Glyph_ID_10）＞＝42560＆＆（Glyph_ID_10）＜＝42655
+
+
+＃ Bamum
+＠フォントリスト	（Glyph_ID_10）＞＝42656＆＆（Glyph_ID_10）＜＝42751
+
+
+＃ Modifier Tone Letters
+＠フォントリスト	（Glyph_ID_10）＞＝42752＆＆（Glyph_ID_10）＜＝42783
+
+
+＃ Latin Extended-D
+＠フォントリスト	（Glyph_ID_10）＞＝42784＆＆（Glyph_ID_10）＜＝43007
+
+
+＃ Syloti Nagri
+＠フォントリスト	（Glyph_ID_10）＞＝43008＆＆（Glyph_ID_10）＜＝43055
+
+
+＃ Common Indic Number Forms
+＠フォントリスト	（Glyph_ID_10）＞＝43056＆＆（Glyph_ID_10）＜＝43071
+
+
+＃ Phags-pa
+＠フォントリスト	（Glyph_ID_10）＞＝43072＆＆（Glyph_ID_10）＜＝43135
+
+
+＃ Saurashtra
+＠フォントリスト	（Glyph_ID_10）＞＝43136＆＆（Glyph_ID_10）＜＝43231
+
+
+＃ Devanagari Extended
+＠フォントリスト	（Glyph_ID_10）＞＝43232＆＆（Glyph_ID_10）＜＝43263
+
+
+＃ Kayah Li
+＠フォントリスト	（Glyph_ID_10）＞＝43264＆＆（Glyph_ID_10）＜＝43311
+
+
+＃ Rejang
+＠フォントリスト	（Glyph_ID_10）＞＝43312＆＆（Glyph_ID_10）＜＝43359
+
+
+＃ Hangul Jamo Extended-A
+＠フォントリスト	（Glyph_ID_10）＞＝43360＆＆（Glyph_ID_10）＜＝43391
+
+
+＃ Javanese
+＠フォントリスト	（Glyph_ID_10）＞＝43392＆＆（Glyph_ID_10）＜＝43487
+
+
+＃ Myanmar Extended-B
+＠フォントリスト	（Glyph_ID_10）＞＝43488＆＆（Glyph_ID_10）＜＝43519
+
+
+＃ Cham
+＠フォントリスト	（Glyph_ID_10）＞＝43520＆＆（Glyph_ID_10）＜＝43615
+
+
+＃ Myanmar Extended-A
+＠フォントリスト	（Glyph_ID_10）＞＝43616＆＆（Glyph_ID_10）＜＝43647
+
+
+＃ Tai Viet
+＠フォントリスト	（Glyph_ID_10）＞＝43648＆＆（Glyph_ID_10）＜＝43743
+
+
+＃ Meetei Mayek Extensions
+＠フォントリスト	（Glyph_ID_10）＞＝43744＆＆（Glyph_ID_10）＜＝43775
+
+
+＃ Ethiopic Extended-A
+＠フォントリスト	（Glyph_ID_10）＞＝43776＆＆（Glyph_ID_10）＜＝43823
+
+
+＃ Latin Extended-E
+＠フォントリスト	（Glyph_ID_10）＞＝43824＆＆（Glyph_ID_10）＜＝43887
+
+
+＃ Cherokee Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝43888＆＆（Glyph_ID_10）＜＝43967
+
+
+＃ Meetei Mayek
+＠フォントリスト	（Glyph_ID_10）＞＝43968＆＆（Glyph_ID_10）＜＝44031
+
+
+＃ Hangul Syllables
+＠フォントリスト	（Glyph_ID_10）＞＝44032＆＆（Glyph_ID_10）＜＝55215
+
+
+＃ Hangul Jamo Extended-B
+＠フォントリスト	（Glyph_ID_10）＞＝55216＆＆（Glyph_ID_10）＜＝55295
+
+
+＃ High Surrogates
+＠フォントリスト	（Glyph_ID_10）＞＝55296＆＆（Glyph_ID_10）＜＝56191
+
+
+＃ High Private Use Surrogates
+＠フォントリスト	（Glyph_ID_10）＞＝56192＆＆（Glyph_ID_10）＜＝56319
+
+
+＃ Low Surrogates
+＠フォントリスト	（Glyph_ID_10）＞＝56320＆＆（Glyph_ID_10）＜＝57343
+
+
+＃ Private Use Area
+＠フォントリスト	（Glyph_ID_10）＞＝57344＆＆（Glyph_ID_10）＜＝63743
+
+
+＃ CJK Compatibility Ideographs
+＠フォントリスト	（Glyph_ID_10）＞＝63744＆＆（Glyph_ID_10）＜＝64255
+
+
+＃ Alphabetic Presentation Forms
+＠フォントリスト	（Glyph_ID_10）＞＝64256＆＆（Glyph_ID_10）＜＝64335
+
+
+＃ Arabic Presentation Forms-A
+＠フォントリスト	（Glyph_ID_10）＞＝64336＆＆（Glyph_ID_10）＜＝65023
+
+
+＃ Variation Selectors
+＠フォントリスト	（Glyph_ID_10）＞＝65024＆＆（Glyph_ID_10）＜＝65039
+
+
+＃ Vertical Forms
+＠フォントリスト	（Glyph_ID_10）＞＝65040＆＆（Glyph_ID_10）＜＝65055
+
+
+＃ Combining Half Marks
+＠フォントリスト	（Glyph_ID_10）＞＝65056＆＆（Glyph_ID_10）＜＝65071
+
+
+＃ CJK Compatibility Forms
+＠フォントリスト	（Glyph_ID_10）＞＝65072＆＆（Glyph_ID_10）＜＝65103
+
+
+＃ Small Form Variants
+＠フォントリスト	（Glyph_ID_10）＞＝65104＆＆（Glyph_ID_10）＜＝65135
+
+
+＃ Arabic Presentation Forms-B
+＠フォントリスト	（Glyph_ID_10）＞＝65136＆＆（Glyph_ID_10）＜＝65279
+
+
+＃ Halfwidth and Fullwidth Forms
+＠フォントリスト	（Glyph_ID_10）＞＝65280＆＆（Glyph_ID_10）＜＝65519
+
+
+＃ Specials
+＠フォントリスト	（Glyph_ID_10）＞＝65520＆＆（Glyph_ID_10）＜＝65535
+
+
+＃ Linear B Syllabary
+＠フォントリスト	（Glyph_ID_10）＞＝65536＆＆（Glyph_ID_10）＜＝65663
+
+
+＃ Linear B Ideograms
+＠フォントリスト	（Glyph_ID_10）＞＝65664＆＆（Glyph_ID_10）＜＝65791
+
+
+＃ Aegean Numbers
+＠フォントリスト	（Glyph_ID_10）＞＝65792＆＆（Glyph_ID_10）＜＝65855
+
+
+＃ Ancient Greek Numbers
+＠フォントリスト	（Glyph_ID_10）＞＝65856＆＆（Glyph_ID_10）＜＝65935
+
+
+＃ Ancient Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝65936＆＆（Glyph_ID_10）＜＝65999
+
+
+＃ Phaistos Disc
+＠フォントリスト	（Glyph_ID_10）＞＝66000＆＆（Glyph_ID_10）＜＝66047
+
+
+＃ Lycian
+＠フォントリスト	（Glyph_ID_10）＞＝66176＆＆（Glyph_ID_10）＜＝66207
+
+
+＃ Carian
+＠フォントリスト	（Glyph_ID_10）＞＝66208＆＆（Glyph_ID_10）＜＝66271
+
+
+＃ Coptic Epact Numbers
+＠フォントリスト	（Glyph_ID_10）＞＝66272＆＆（Glyph_ID_10）＜＝66303
+
+
+＃ Old Italic
+＠フォントリスト	（Glyph_ID_10）＞＝66304＆＆（Glyph_ID_10）＜＝66351
+
+
+＃ Gothic
+＠フォントリスト	（Glyph_ID_10）＞＝66352＆＆（Glyph_ID_10）＜＝66383
+
+
+＃ Old Permic
+＠フォントリスト	（Glyph_ID_10）＞＝66384＆＆（Glyph_ID_10）＜＝66431
+
+
+＃ Ugaritic
+＠フォントリスト	（Glyph_ID_10）＞＝66432＆＆（Glyph_ID_10）＜＝66463
+
+
+＃ Old Persian
+＠フォントリスト	（Glyph_ID_10）＞＝66464＆＆（Glyph_ID_10）＜＝66527
+
+
+＃ Deseret
+＠フォントリスト	（Glyph_ID_10）＞＝66560＆＆（Glyph_ID_10）＜＝66639
+
+
+＃ Shavian
+＠フォントリスト	（Glyph_ID_10）＞＝66640＆＆（Glyph_ID_10）＜＝66687
+
+
+＃ Osmanya
+＠フォントリスト	（Glyph_ID_10）＞＝66688＆＆（Glyph_ID_10）＜＝66735
+
+
+＃ Osage
+＠フォントリスト	（Glyph_ID_10）＞＝66736＆＆（Glyph_ID_10）＜＝66815
+
+
+＃ Elbasan
+＠フォントリスト	（Glyph_ID_10）＞＝66816＆＆（Glyph_ID_10）＜＝66863
+
+
+＃ Caucasian Albanian
+＠フォントリスト	（Glyph_ID_10）＞＝66864＆＆（Glyph_ID_10）＜＝66927
+
+
+＃ Linear A
+＠フォントリスト	（Glyph_ID_10）＞＝67072＆＆（Glyph_ID_10）＜＝67455
+
+
+＃ Cypriot Syllabary
+＠フォントリスト	（Glyph_ID_10）＞＝67584＆＆（Glyph_ID_10）＜＝67647
+
+
+＃ Imperial Aramaic
+＠フォントリスト	（Glyph_ID_10）＞＝67648＆＆（Glyph_ID_10）＜＝67679
+
+
+＃ Palmyrene
+＠フォントリスト	（Glyph_ID_10）＞＝67680＆＆（Glyph_ID_10）＜＝67711
+
+
+＃ Nabataean
+＠フォントリスト	（Glyph_ID_10）＞＝67712＆＆（Glyph_ID_10）＜＝67759
+
+
+＃ Hatran
+＠フォントリスト	（Glyph_ID_10）＞＝67808＆＆（Glyph_ID_10）＜＝67839
+
+
+＃ Phoenician
+＠フォントリスト	（Glyph_ID_10）＞＝67840＆＆（Glyph_ID_10）＜＝67871
+Noto Sans Phoenician
+
+＃ Lydian
+＠フォントリスト	（Glyph_ID_10）＞＝67872＆＆（Glyph_ID_10）＜＝67903
+
+
+＃ Meroitic Hieroglyphs
+＠フォントリスト	（Glyph_ID_10）＞＝67968＆＆（Glyph_ID_10）＜＝67999
+
+
+＃ Meroitic Cursive
+＠フォントリスト	（Glyph_ID_10）＞＝68000＆＆（Glyph_ID_10）＜＝68095
+
+
+＃ Kharoshthi
+＠フォントリスト	（Glyph_ID_10）＞＝68096＆＆（Glyph_ID_10）＜＝68191
+
+
+＃ Old South Arabian
+＠フォントリスト	（Glyph_ID_10）＞＝68192＆＆（Glyph_ID_10）＜＝68223
+
+
+＃ Old North Arabian
+＠フォントリスト	（Glyph_ID_10）＞＝68224＆＆（Glyph_ID_10）＜＝68255
+
+
+＃ Manichaean
+＠フォントリスト	（Glyph_ID_10）＞＝68288＆＆（Glyph_ID_10）＜＝68351
+
+
+＃ Avestan
+＠フォントリスト	（Glyph_ID_10）＞＝68352＆＆（Glyph_ID_10）＜＝68415
+
+
+＃ Inscriptional Parthian
+＠フォントリスト	（Glyph_ID_10）＞＝68416＆＆（Glyph_ID_10）＜＝68447
+
+
+＃ Inscriptional Pahlavi
+＠フォントリスト	（Glyph_ID_10）＞＝68448＆＆（Glyph_ID_10）＜＝68479
+
+
+＃ Psalter Pahlavi
+＠フォントリスト	（Glyph_ID_10）＞＝68480＆＆（Glyph_ID_10）＜＝68527
+
+
+＃ Old Turkic
+＠フォントリスト	（Glyph_ID_10）＞＝68608＆＆（Glyph_ID_10）＜＝68687
+
+
+＃ Old Hungarian
+＠フォントリスト	（Glyph_ID_10）＞＝68736＆＆（Glyph_ID_10）＜＝68863
+
+
+＃ Hanifi Rohingya
+＠フォントリスト	（Glyph_ID_10）＞＝68864＆＆（Glyph_ID_10）＜＝68927
+
+
+＃ Rumi Numeral Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝69216＆＆（Glyph_ID_10）＜＝69247
+
+
+＃ Yezidi
+＠フォントリスト	（Glyph_ID_10）＞＝69248＆＆（Glyph_ID_10）＜＝69311
+
+
+＃ Old Sogdian
+＠フォントリスト	（Glyph_ID_10）＞＝69376＆＆（Glyph_ID_10）＜＝69423
+
+
+＃ Sogdian
+＠フォントリスト	（Glyph_ID_10）＞＝69424＆＆（Glyph_ID_10）＜＝69487
+
+
+＃ Chorasmian
+＠フォントリスト	（Glyph_ID_10）＞＝69552＆＆（Glyph_ID_10）＜＝69599
+
+
+＃ Elymaic
+＠フォントリスト	（Glyph_ID_10）＞＝69600＆＆（Glyph_ID_10）＜＝69631
+
+
+＃ Brahmi
+＠フォントリスト	（Glyph_ID_10）＞＝69632＆＆（Glyph_ID_10）＜＝69759
+
+
+＃ Kaithi
+＠フォントリスト	（Glyph_ID_10）＞＝69760＆＆（Glyph_ID_10）＜＝69839
+
+
+＃ Sora Sompeng
+＠フォントリスト	（Glyph_ID_10）＞＝69840＆＆（Glyph_ID_10）＜＝69887
+
+
+＃ Chakma
+＠フォントリスト	（Glyph_ID_10）＞＝69888＆＆（Glyph_ID_10）＜＝69967
+
+
+＃ Mahajani
+＠フォントリスト	（Glyph_ID_10）＞＝69968＆＆（Glyph_ID_10）＜＝70015
+
+
+＃ Sharada
+＠フォントリスト	（Glyph_ID_10）＞＝70016＆＆（Glyph_ID_10）＜＝70111
+
+
+＃ Sinhala Archaic Numbers
+＠フォントリスト	（Glyph_ID_10）＞＝70112＆＆（Glyph_ID_10）＜＝70143
+
+
+＃ Khojki
+＠フォントリスト	（Glyph_ID_10）＞＝70144＆＆（Glyph_ID_10）＜＝70223
+
+
+＃ Multani
+＠フォントリスト	（Glyph_ID_10）＞＝70272＆＆（Glyph_ID_10）＜＝70319
+
+
+＃ Khudawadi
+＠フォントリスト	（Glyph_ID_10）＞＝70320＆＆（Glyph_ID_10）＜＝70399
+
+
+＃ Grantha
+＠フォントリスト	（Glyph_ID_10）＞＝70400＆＆（Glyph_ID_10）＜＝70527
+
+
+＃ Newa
+＠フォントリスト	（Glyph_ID_10）＞＝70656＆＆（Glyph_ID_10）＜＝70783
+
+
+＃ Tirhuta
+＠フォントリスト	（Glyph_ID_10）＞＝70784＆＆（Glyph_ID_10）＜＝70879
+
+
+＃ Siddham
+＠フォントリスト	（Glyph_ID_10）＞＝71040＆＆（Glyph_ID_10）＜＝71167
+
+
+＃ Modi
+＠フォントリスト	（Glyph_ID_10）＞＝71168＆＆（Glyph_ID_10）＜＝71263
+
+
+＃ Mongolian Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝71264＆＆（Glyph_ID_10）＜＝71295
+
+
+＃ Takri
+＠フォントリスト	（Glyph_ID_10）＞＝71296＆＆（Glyph_ID_10）＜＝71375
+
+
+＃ Ahom
+＠フォントリスト	（Glyph_ID_10）＞＝71424＆＆（Glyph_ID_10）＜＝71487
+
+
+＃ Dogra
+＠フォントリスト	（Glyph_ID_10）＞＝71680＆＆（Glyph_ID_10）＜＝71759
+
+
+＃ Warang Citi
+＠フォントリスト	（Glyph_ID_10）＞＝71840＆＆（Glyph_ID_10）＜＝71935
+
+
+＃ Dives Akuru
+＠フォントリスト	（Glyph_ID_10）＞＝71936＆＆（Glyph_ID_10）＜＝72031
+
+
+＃ Nandinagari
+＠フォントリスト	（Glyph_ID_10）＞＝72096＆＆（Glyph_ID_10）＜＝72191
+
+
+＃ Zanabazar Square
+＠フォントリスト	（Glyph_ID_10）＞＝72192＆＆（Glyph_ID_10）＜＝72271
+
+
+＃ Soyombo
+＠フォントリスト	（Glyph_ID_10）＞＝72272＆＆（Glyph_ID_10）＜＝72367
+
+
+＃ Pau Cin Hau
+＠フォントリスト	（Glyph_ID_10）＞＝72384＆＆（Glyph_ID_10）＜＝72447
+
+
+＃ Bhaiksuki
+＠フォントリスト	（Glyph_ID_10）＞＝72704＆＆（Glyph_ID_10）＜＝72815
+
+
+＃ Marchen
+＠フォントリスト	（Glyph_ID_10）＞＝72816＆＆（Glyph_ID_10）＜＝72895
+
+
+＃ Masaram Gondi
+＠フォントリスト	（Glyph_ID_10）＞＝72960＆＆（Glyph_ID_10）＜＝73055
+
+
+＃ Gunjala Gondi
+＠フォントリスト	（Glyph_ID_10）＞＝73056＆＆（Glyph_ID_10）＜＝73135
+
+
+＃ Makasar
+＠フォントリスト	（Glyph_ID_10）＞＝73440＆＆（Glyph_ID_10）＜＝73471
+
+
+＃ Lisu Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝73648＆＆（Glyph_ID_10）＜＝73663
+
+
+＃ Tamil Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝73664＆＆（Glyph_ID_10）＜＝73727
+
+
+＃ Cuneiform
+＠フォントリスト	（Glyph_ID_10）＞＝73728＆＆（Glyph_ID_10）＜＝74751
+Noto Sans Cuneiform
+
+＃ Cuneiform Numbers and Punctuation
+＠フォントリスト	（Glyph_ID_10）＞＝74752＆＆（Glyph_ID_10）＜＝74879
+
+
+＃ Early Dynastic Cuneiform
+＠フォントリスト	（Glyph_ID_10）＞＝74880＆＆（Glyph_ID_10）＜＝75087
+
+
+＃ Egyptian Hieroglyphs
+＠フォントリスト	（Glyph_ID_10）＞＝77824＆＆（Glyph_ID_10）＜＝78895
+
+
+＃ Egyptian Hieroglyph Format Controls
+＠フォントリスト	（Glyph_ID_10）＞＝78896＆＆（Glyph_ID_10）＜＝78911
+
+
+＃ Anatolian Hieroglyphs
+＠フォントリスト	（Glyph_ID_10）＞＝82944＆＆（Glyph_ID_10）＜＝83583
+
+
+＃ Bamum Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝92160＆＆（Glyph_ID_10）＜＝92735
+
+
+＃ Mro
+＠フォントリスト	（Glyph_ID_10）＞＝92736＆＆（Glyph_ID_10）＜＝92783
+
+
+＃ Bassa Vah
+＠フォントリスト	（Glyph_ID_10）＞＝92880＆＆（Glyph_ID_10）＜＝92927
+
+
+＃ Pahawh Hmong
+＠フォントリスト	（Glyph_ID_10）＞＝92928＆＆（Glyph_ID_10）＜＝93071
+
+
+＃ Medefaidrin
+＠フォントリスト	（Glyph_ID_10）＞＝93760＆＆（Glyph_ID_10）＜＝93855
+
+
+＃ Miao
+＠フォントリスト	（Glyph_ID_10）＞＝93952＆＆（Glyph_ID_10）＜＝94111
+
+
+＃ Ideographic Symbols and Punctuation
+＠フォントリスト	（Glyph_ID_10）＞＝94176＆＆（Glyph_ID_10）＜＝94207
+
+
+＃ Tangut
+＠フォントリスト	（Glyph_ID_10）＞＝94208＆＆（Glyph_ID_10）＜＝100351
+
+
+＃ Tangut Components
+＠フォントリスト	（Glyph_ID_10）＞＝100352＆＆（Glyph_ID_10）＜＝101119
+
+
+＃ Khitan Small Script
+＠フォントリスト	（Glyph_ID_10）＞＝101120＆＆（Glyph_ID_10）＜＝101631
+
+
+＃ Tangut Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝101632＆＆（Glyph_ID_10）＜＝101775
+
+
+＃ Kana Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝110592＆＆（Glyph_ID_10）＜＝110847
+
+
+＃ Kana Extended-A
+＠フォントリスト	（Glyph_ID_10）＞＝110848＆＆（Glyph_ID_10）＜＝110895
+
+
+＃ Small Kana Extension
+＠フォントリスト	（Glyph_ID_10）＞＝110896＆＆（Glyph_ID_10）＜＝110959
+
+
+＃ Nushu
+＠フォントリスト	（Glyph_ID_10）＞＝110960＆＆（Glyph_ID_10）＜＝111359
+
+
+＃ Duployan
+＠フォントリスト	（Glyph_ID_10）＞＝113664＆＆（Glyph_ID_10）＜＝113823
+
+
+＃ Shorthand Format Controls
+＠フォントリスト	（Glyph_ID_10）＞＝113824＆＆（Glyph_ID_10）＜＝113839
+
+
+＃ Byzantine Musical Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝118784＆＆（Glyph_ID_10）＜＝119039
+
+
+＃ Musical Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝119040＆＆（Glyph_ID_10）＜＝119295
+
+
+＃ Ancient Greek Musical Notation
+＠フォントリスト	（Glyph_ID_10）＞＝119296＆＆（Glyph_ID_10）＜＝119375
+
+
+＃ Mayan Numerals
+＠フォントリスト	（Glyph_ID_10）＞＝119520＆＆（Glyph_ID_10）＜＝119551
+
+
+＃ Tai Xuan Jing Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝119552＆＆（Glyph_ID_10）＜＝119647
+
+
+＃ Counting Rod Numerals
+＠フォントリスト	（Glyph_ID_10）＞＝119648＆＆（Glyph_ID_10）＜＝119679
+
+
+＃ Mathematical Alphanumeric Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝119808＆＆（Glyph_ID_10）＜＝120831
+
+
+＃ Sutton SignWriting
+＠フォントリスト	（Glyph_ID_10）＞＝120832＆＆（Glyph_ID_10）＜＝121519
+
+
+＃ Glagolitic Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝122880＆＆（Glyph_ID_10）＜＝122927
+
+
+＃ Nyiakeng Puachue Hmong
+＠フォントリスト	（Glyph_ID_10）＞＝123136＆＆（Glyph_ID_10）＜＝123215
+
+
+＃ Wancho
+＠フォントリスト	（Glyph_ID_10）＞＝123584＆＆（Glyph_ID_10）＜＝123647
+
+
+＃ Mende Kikakui
+＠フォントリスト	（Glyph_ID_10）＞＝124928＆＆（Glyph_ID_10）＜＝125151
+
+
+＃ Adlam
+＠フォントリスト	（Glyph_ID_10）＞＝125184＆＆（Glyph_ID_10）＜＝125279
+
+
+＃ Indic Siyaq Numbers
+＠フォントリスト	（Glyph_ID_10）＞＝126064＆＆（Glyph_ID_10）＜＝126143
+
+
+＃ Ottoman Siyaq Numbers
+＠フォントリスト	（Glyph_ID_10）＞＝126208＆＆（Glyph_ID_10）＜＝126287
+
+
+＃ Arabic Mathematical Alphabetic Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝126464＆＆（Glyph_ID_10）＜＝126719
+
+
+＃ Mahjong Tiles
+＠フォントリスト	（Glyph_ID_10）＞＝126976＆＆（Glyph_ID_10）＜＝127023
+
+
+＃ Domino Tiles
+＠フォントリスト	（Glyph_ID_10）＞＝127024＆＆（Glyph_ID_10）＜＝127135
+
+
+＃ Playing Cards
+＠フォントリスト	（Glyph_ID_10）＞＝127136＆＆（Glyph_ID_10）＜＝127231
+
+
+＃ Enclosed Alphanumeric Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝127232＆＆（Glyph_ID_10）＜＝127487
+
+
+＃ Enclosed Ideographic Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝127488＆＆（Glyph_ID_10）＜＝127743
+
+
+＃ Miscellaneous Symbols and Pictographs
+＠フォントリスト	（Glyph_ID_10）＞＝127744＆＆（Glyph_ID_10）＜＝128511
+
+
+＃ Emoticons
+＠フォントリスト	（Glyph_ID_10）＞＝128512＆＆（Glyph_ID_10）＜＝128591
+
+
+＃ Ornamental Dingbats
+＠フォントリスト	（Glyph_ID_10）＞＝128592＆＆（Glyph_ID_10）＜＝128639
+
+
+＃ Transport and Map Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝128640＆＆（Glyph_ID_10）＜＝128767
+
+
+＃ Alchemical Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝128768＆＆（Glyph_ID_10）＜＝128895
+
+
+＃ Geometric Shapes Extended
+＠フォントリスト	（Glyph_ID_10）＞＝128896＆＆（Glyph_ID_10）＜＝129023
+
+
+＃ Supplemental Arrows-C
+＠フォントリスト	（Glyph_ID_10）＞＝129024＆＆（Glyph_ID_10）＜＝129279
+
+
+＃ Supplemental Symbols and Pictographs
+＠フォントリスト	（Glyph_ID_10）＞＝129280＆＆（Glyph_ID_10）＜＝129535
+
+
+＃ Chess Symbols
+＠フォントリスト	（Glyph_ID_10）＞＝129536＆＆（Glyph_ID_10）＜＝129647
+
+
+＃ Symbols and Pictographs Extended-A
+＠フォントリスト	（Glyph_ID_10）＞＝129648＆＆（Glyph_ID_10）＜＝129791
+
+
+＃ Symbols for Legacy Computing
+＠フォントリスト	（Glyph_ID_10）＞＝129792＆＆（Glyph_ID_10）＜＝130047
+
+
+＃ CJK Unified Ideographs Extension B
+＠フォントリスト	（Glyph_ID_10）＞＝131072＆＆（Glyph_ID_10）＜＝173791
+
+
+＃ CJK Unified Ideographs Extension C
+＠フォントリスト	（Glyph_ID_10）＞＝173824＆＆（Glyph_ID_10）＜＝177983
+
+
+＃ CJK Unified Ideographs Extension D
+＠フォントリスト	（Glyph_ID_10）＞＝177984＆＆（Glyph_ID_10）＜＝178207
+
+
+＃ CJK Unified Ideographs Extension E
+＠フォントリスト	（Glyph_ID_10）＞＝178208＆＆（Glyph_ID_10）＜＝183983
+
+
+＃ CJK Unified Ideographs Extension F
+＠フォントリスト	（Glyph_ID_10）＞＝183984＆＆（Glyph_ID_10）＜＝191471
+
+
+＃ CJK Compatibility Ideographs Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝194560＆＆（Glyph_ID_10）＜＝195103
+
+
+＃ CJK Unified Ideographs Extension G
+＠フォントリスト	（Glyph_ID_10）＞＝196608＆＆（Glyph_ID_10）＜＝201551
+
+
+＃ Tags
+＠フォントリスト	（Glyph_ID_10）＞＝917504＆＆（Glyph_ID_10）＜＝917631
+
+
+＃ Variation Selectors Supplement
+＠フォントリスト	（Glyph_ID_10）＞＝917760＆＆（Glyph_ID_10）＜＝917999
+
+
+＃ Supplementary Private Use Area-A
+＠フォントリスト	（Glyph_ID_10）＞＝983040＆＆（Glyph_ID_10）＜＝1048575
+
+
+＃ Supplementary Private Use Area-B
+＠フォントリスト	（Glyph_ID_10）＞＝1048576＆＆（Glyph_ID_10）＜＝1114111
+
+
