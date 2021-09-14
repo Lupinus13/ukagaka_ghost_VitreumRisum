@@ -2,9 +2,9 @@ charset,Shift_JIS
 file,developer_options.txt260ea278d15fe482e1a6e522d5210fb8size=340date=2020-04-18T20:28:38
 file,ghost/master/descript.txtf1c837582431c4ce996c26c32467be96size=2147date=2020-04-18T20:28:38
 file,ghost/master/dic004_transcription_vitreum.txt975d9ee3008106e210fdd901dcab0d70size=22182date=2021-09-15T00:27:46
-file,ghost/master/dic005_fontlist_vitreum.txte4b66f3e6a910c8645af324556823fd8size=16715date=2021-09-14T04:21:09
+file,ghost/master/dic005_fontlist_vitreum.txtefedb1ebb8ea302e6574ff1930f68b2dsize=17470date=2021-09-15T01:37:52
 file,ghost/master/dic00_common.txt64ce08e37fec40eada380ea6d84b62f2size=629date=2021-09-14T23:59:05
-file,ghost/master/dic01_main_vitreum.txtc8676dda8bc3cb94c683ca8858076726size=56347date=2021-09-15T00:35:57
+file,ghost/master/dic01_main_vitreum.txtdfc28588ad995e30b453901527cb84bfsize=56268date=2021-09-15T01:40:13
 file,ghost/master/dic02_string_vitreum.txt113fdd452b18d0bbbd95fa9ecadfeee2size=162date=2020-04-18T22:33:42
 file,ghost/master/dic100_function_jp_vitreum.txte3d516f937185fc4128cae17271ba56csize=24732date=2021-02-14T01:36:49
 file,ghost/master/dic101_words_jp_vitreum.txtd016f43372b6780f65128fab67fbe4a4size=16479date=2021-09-12T13:25:50
@@ -620,4 +620,4 @@ file,shell/master/wingr3_24.png6949e55015283c03b028c7057746e3ecsize=1829date=
 file,shell/master/wingr3_25.png9152d8d952d302d1351c7526e21cbd43size=1732date=2020-04-18T20:28:38
 file,shell/master/wingr3_26.png06d9ded5189b8d8d4a304566e23f512fsize=1741date=2020-04-18T20:28:38
 file,shell/master/wingr3_27.png6129d8349eebb3507308ad4b5c4196c8size=1763date=2020-04-18T20:28:38
-file,version.txt49116972cbfb7dee811a429cae4ddc1bsize=8336date=2021-09-15T00:43:32
+file,version.txt78a15ee1172854ec609b30102f7bd766size=8439date=2021-09-15T01:41:37

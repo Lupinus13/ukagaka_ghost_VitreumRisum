@@ -323,49 +323,49 @@
 メイリオ
 
 ＠Basic Latin
-
+メイリオ
 
 ＠Latin-1 Supplement
-
+メイリオ
 
 ＠Latin Extended-A
-
+メイリオ
 
 ＠Latin Extended-B
-
+メイリオ
 
 ＠IPA Extensions
-
+メイリオ
 
 ＠Spacing Modifier Letters
-
+メイリオ
 
 ＠Combining Diacritical Marks
-
+メイリオ
 
 ＠Greek and Coptic
-
+メイリオ
 
 ＠Cyrillic
-
+メイリオ
 
 ＠Cyrillic Supplement
 
 
 ＠Armenian
-
+Noto Sans Armenian
 
 ＠Hebrew
-
+Noto Sans Hebrew
 
 ＠Arabic
-
+Noto Sans Arabic
 
 ＠Syriac
 
 
 ＠Arabic Supplement
-
+Noto Sans Arabic
 
 ＠Thaana
 
@@ -383,10 +383,10 @@
 
 
 ＠Arabic Extended-A
-
+Noto Sans Arabic
 
 ＠Devanagari
-
+Noto Sans Devanagari
 
 ＠Bengali
 
@@ -410,13 +410,13 @@
 
 
 ＠Malayalam
-
+Noto Sans Malayalam
 
 ＠Sinhala
 
 
 ＠Thai
-
+Noto Sans Thai
 
 ＠Lao
 
@@ -431,7 +431,7 @@
 
 
 ＠Hangul Jamo
-
+Noto Sans CJK KR Regular
 
 ＠Ethiopic
 
@@ -449,7 +449,7 @@
 
 
 ＠Runic
-
+Noto Sans Runic
 
 ＠Tagalog
 
@@ -476,10 +476,10 @@
 
 
 ＠Tai Le
-
+Noto Sans Tai Le
 
 ＠New Tai Lue
-
+Noto Sans NewTaiLue
 
 ＠Khmer Symbols
 
@@ -488,7 +488,7 @@
 
 
 ＠Tai Tham
-
+Noto Sans Tai Tham
 
 ＠Combining Diacritical Marks Extended
 
@@ -536,31 +536,31 @@
 
 
 ＠General Punctuation
-
+メイリオ
 
 ＠Superscripts and Subscripts
-
+メイリオ
 
 ＠Currency Symbols
-
+メイリオ
 
 ＠Combining Diacritical Marks for Symbols
-
+メイリオ
 
 ＠Letterlike Symbols
-
+メイリオ
 
 ＠Number Forms
-
+メイリオ
 
 ＠Arrows
-
+メイリオ
 
 ＠Mathematical Operators
-
+メイリオ
 
 ＠Miscellaneous Technical
-
+メイリオ
 
 ＠Control Pictures
 
@@ -569,22 +569,22 @@
 
 
 ＠Enclosed Alphanumerics
-
+メイリオ
 
 ＠Box Drawing
-
+メイリオ
 
 ＠Block Elements
-
+メイリオ
 
 ＠Geometric Shapes
-
+メイリオ
 
 ＠Miscellaneous Symbols
-
+メイリオ
 
 ＠Dingbats
-
+メイリオ
 
 ＠Miscellaneous Mathematical Symbols-A
 
@@ -596,10 +596,10 @@
 
 
 ＠Supplemental Arrows-B
-
+メイリオ
 
 ＠Miscellaneous Mathematical Symbols-B
-
+メイリオ
 
 ＠Supplemental Mathematical Operators
 
@@ -632,16 +632,16 @@
 
 
 ＠CJK Radicals Supplement
-
+メイリオ
 
 ＠Kangxi Radicals
-
+メイリオ
 
 ＠Ideographic Description Characters
 
 
 ＠CJK Symbols and Punctuation
-
+メイリオ
 
 ＠Hiragana
 メイリオ
@@ -653,34 +653,34 @@
 
 
 ＠Hangul Compatibility Jamo
-
+Noto Sans CJK KR Regular
 
 ＠Kanbun
-
+メイリオ
 
 ＠Bopomofo Extended
 
 
 ＠CJK Strokes
-
+メイリオ
 
 ＠Katakana Phonetic Extensions
-
+メイリオ
 
 ＠Enclosed CJK Letters and Months
-
+メイリオ
 
 ＠CJK Compatibility
-
+メイリオ
 
 ＠CJK Unified Ideographs Extension A
-
+メイリオ
 
 ＠Yijing Hexagram Symbols
 
 
 ＠CJK Unified Ideographs
-
+メイリオ
 
 ＠Yi Syllables
 
@@ -719,7 +719,7 @@
 
 
 ＠Devanagari Extended
-
+Noto Sans Devanagari
 
 ＠Kayah Li
 
@@ -728,7 +728,7 @@
 
 
 ＠Hangul Jamo Extended-A
-
+Noto Sans CJK KR Regular
 
 ＠Javanese
 
@@ -761,10 +761,10 @@
 
 
 ＠Hangul Syllables
-
+Noto Sans CJK KR Regular
 
 ＠Hangul Jamo Extended-B
-
+Noto Sans CJK KR Regular
 
 ＠High Surrogates
 
@@ -779,34 +779,34 @@
 
 
 ＠CJK Compatibility Ideographs
-
+メイリオ
 
 ＠Alphabetic Presentation Forms
 
 
 ＠Arabic Presentation Forms-A
-
+Noto Sans Arabic
 
 ＠Variation Selectors
 
 
 ＠Vertical Forms
-
+メイリオ
 
 ＠Combining Half Marks
 
 
 ＠CJK Compatibility Forms
-
+メイリオ
 
 ＠Small Form Variants
 
 
 ＠Arabic Presentation Forms-B
-
+Noto Sans Arabic
 
 ＠Halfwidth and Fullwidth Forms
-
+メイリオ
 
 ＠Specials
 
@@ -1059,7 +1059,7 @@ Noto Sans Cuneiform
 
 
 ＠Egyptian Hieroglyphs
-
+Noto Sans EgyptHiero
 
 ＠Egyptian Hieroglyph Format Controls
 
@@ -1101,7 +1101,7 @@ Noto Sans Cuneiform
 
 
 ＠Kana Supplement
-
+メイリオ
 
 ＠Kana Extended-A
 
@@ -1176,10 +1176,10 @@ Noto Sans Cuneiform
 
 
 ＠Enclosed Alphanumeric Supplement
-
+メイリオ
 
 ＠Enclosed Ideographic Supplement
-
+メイリオ
 
 ＠Miscellaneous Symbols and Pictographs
 
@@ -1215,7 +1215,7 @@ Noto Sans Cuneiform
 
 
 ＠CJK Unified Ideographs Extension B
-
+メイリオ
 
 ＠CJK Unified Ideographs Extension C
 
@@ -1230,7 +1230,7 @@ Noto Sans Cuneiform
 
 
 ＠CJK Compatibility Ideographs Supplement
-
+メイリオ
 
 ＠CJK Unified Ideographs Extension G
 

@@ -1,4 +1,4 @@
-＃ver0.29.0
+＃ver0.29.1
 ＃めも
 ＃あるいはあらゆるものであるがゆえになにものでもないものについて
 ＃否定と否定の境界上で笑うもの
@@ -1434,7 +1434,8 @@ nyan
 ＃（Ａ０）：上位16進数
 ＃（Ａ１）：下位16進数
 ＠サロゲートペア処理
-（calc,（call,2to10_conversion,（sprintf,%010d,（call,10to2_conversion,（call,16to10_conversion,（Ａ０））-55296））（sprintf,%010d,（call,10to2_conversion,（call,16to10_conversion,（Ａ１））-56320）））+65536）
+（calc,（calc,（calc,（call,16to10_conversion,（Ａ０））-55296）*1024）+（calc,（call,16to10_conversion,（Ａ１））-56320）+65536）
+
 
 ＠フォント探索_uni
 （nop,
