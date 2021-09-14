@@ -1,4 +1,4 @@
-＃ver0.28.9
+＃ver0.29.0
 ＃めも
 ＃あるいはあらゆるものであるがゆえになにものでもないものについて
 ＃否定と否定の境界上で笑うもの
@@ -11,7 +11,7 @@
 ＃バージョン上げたら書き換えてください
 ＃適当なのでずれてることがおおい
 ＠version表示
-ver0.28.8
+ver0.29.0
 
 
 ＃目次：イベント各種
@@ -41,7 +41,6 @@ ver0.28.8
 \0（挨拶する）
 
 
-
 ＃バルーン位置同期用の処理
 ＃起動時に通過
 ＠起動時シェル位置処理
@@ -61,7 +60,7 @@ ver0.28.8
 \0パスワードを 入力してください
 \![open,inputbox,起動パス]
 
-＃ぱすわーど判定
+＃パスワード判定
 ＊起動パス入力ぼっくす
 （when,（compare,（起動パス）,HarmoniaMaris）,（set,ぱすわーど,1）,（set,ぱすわーど,0））
 ＞認証OK	（ぱすわーど）＝＝1
@@ -85,7 +84,6 @@ ver0.28.8
 ＠挨拶する	（二人称トークふらぐ）＝＝0
 （挨拶）（感嘆符とか）
 （感動詞）、（挨拶）（感嘆符とか）
-
 
 ＠挨拶する	（二人称トークふらぐ）＝＝1
 （感動詞）、（二人称b）\n（挨拶）（感嘆符とか）
@@ -113,6 +111,8 @@ ver0.28.8
 シェルを再定義します。
 外殻の再生。
 
+＃バルーンも変更応答してほしい
+＃そんな願いと現実
 ＊OnBalloonChange
 \0（バルーン変更応答）
 
@@ -121,8 +121,6 @@ ver0.28.8
 出力系セットアップ。
 
 
-
-＃バルーンも変更応答してほしい
 
 
 ＃目次：ユーザー操作関連イベント
@@ -155,9 +153,11 @@ ver0.28.8
 ＞らんだむとーく	（ぱすわーど）＝＝1
 …
 
+
 ＃短文を呼ぶための準備（パラメータ初期化、過去トーク格納）
 ＃→短文召喚
 ＃→シェル処理
+＃→フォント処理
 ＃→音声処理
 ＊らんだむとーく
 ＞イベント_Lacrimaeこみゅ	（Lacrimaeこみゅ予約）＝＝1＆＆（でばっぐもーど）＝＝1
@@ -170,13 +170,14 @@ ver0.28.8
 	,cubical,（when,（箱色_変更タイミング）＝＝2｜｜（箱色_変更タイミング）＝＝1＆＆（自己トーク）＝＝1
 		,（箱色シャッフル）
 	）
+）（when,（フォント_変更タイミング）＝＝2｜｜（フォント_変更タイミング）＝＝1＆＆（自己トーク）＝＝1
+		,（set,nowFontName_SJIS,（choice,（SJISフォントリスト）））
 ）φ
 （set,自己トーク,0）φ
 （when,（音声フラグ）＝＝1
-	,（call,OnSofTalk,（短文入れ0））（短文入れ0）
-	,（短文入れ0）
+	,（call,OnSofTalk,（短文入れ0））（call,SJIS表示,（短文入れ0））
+	,（call,SJIS表示,（短文入れ0））
 ）
-
 
 
 ＃使ってたら補充するよ
@@ -249,6 +250,7 @@ ver0.28.8
 	,＜＝3,（set,拾い物_EN,（set,en形容詞修飾制御,1）（en名詞句処理））（set,持ち物_EN,（持ち物_EN）_（拾い物_EN））（set,Lacrimaeさむしんぐ,（拾い物_EN））\0 [（拾い物_EN）を拾った]
 ）（set,Lacrimaeこみゅ予約,1）
 
+＃あのこがいるときのトーク連携
 ＊イベント_Lacrimaeこみゅ
 （when,（空想上の誰かの存在）＝＝1
 	,（set,Value0,空想上の誰か）
@@ -276,6 +278,7 @@ ver0.28.8
 
 ＿せってい
 ＿シェルせってい
+＿フォントせってい
 ＿はろーわーるど	はろーわーるどめにゅー
 ＿てすと	てすとすぺーす01
 
@@ -311,7 +314,7 @@ ver0.28.8
 
 （call,めにゅー末尾,めにゅー）
 \0（whenlist、（Ａ０）＝＝
-	、SJIS、（短文入れ（Ａ１））
+	、SJIS、（call,SJIS表示,（短文入れ（Ａ１）））
 	、UTF8、（call,uni,（uni文入れ（Ａ１）））
 	、ないです
 ）
@@ -402,7 +405,7 @@ ver0.28.8
 ＊持ち物個別表示_処理
 \0（whenlist,（Ａ０）＝＝
 	,UTF8,（call,uni,（Ａ１））
-	,SJIS,（Ａ１）
+	,SJIS,（call,SJIS表示,（Ａ１））
 	,なぞのこーどだよ\nＡ０φ：（Ａ０）\nＡ１φ：（Ａ１）
 ）
 
@@ -439,6 +442,7 @@ ver0.28.8
 ＊スタンプ帳確認
 \0\![raiseplugin,スタンプ帳,OnMenuExec]スタンプ帳を開きます。
 
+
 （call,めにゅー末尾,スタンプ帳めにゅー）
 
 ＃目次：ほにゃく関連
@@ -449,8 +453,8 @@ ver0.28.8
 
 \![*]\q[ほにゃくこてい,On設定変更_処理,ほにゃくこてい,1,ほにゃくめにゅー]φ
 【現在φ：（whenlist,（ほにゃくこてい）＝＝,0,してい,1,らんだむ）】
-\![*]\q[ほにゃくしてい,On設定変更_処理,ほにゃくしてい,8,ほにゃくめにゅー]φ
-【現在φ：（whenlist,（ほにゃくしてい）＝＝,0,まぜまぜ,1,Kana,2,Hira,3,Latn,4,Hang,5,Deva,6,Arab,7,Cyrl,8,Mlym）】
+\![*]\q[ほにゃくしてい,ほにゃくしていせんたく]φ
+【現在φ：（call,ISO_15924_convert,（ほにゃくしてい））】
 \![*]\q[ほにゃくふりーだむふらぐ,On設定変更_処理,ほにゃくふりーだむふらぐ,1,ほにゃくめにゅー]
 【現在φ：（whenlist,（ほにゃくふりーだむふらぐ）＝＝,0,majime,1,freedom）】
 
@@ -459,8 +463,18 @@ ver0.28.8
 
 （call,めにゅー末尾,めにゅー）
 
-＊ほにゃくせんてんす_にゅうりょく
+＊ほにゃくしていせんたく
+\0\b[2]\![quicksection,true]《ほにゃくしてい》
+（for、1、12、1、
+	（set,ISO_15924_No,（call,ISO_15924_nsw,（Ｃ０）））
+	\![*]\q[（ISO_15924_No）φ：（call,ISO_15924_convert,（ISO_15924_No））,On設定代入_処理,ほにゃくしてい,（ISO_15924_No）,ほにゃくめにゅー]\n
+）
 
+
+（call,めにゅー末尾,ほにゃくめにゅー）
+
+
+＊ほにゃくせんてんす_にゅうりょく
 \![open,inputbox,ほにゃくせんてんす]
 
 （call,めにゅー末尾,ほにゃくめにゅー）
@@ -488,6 +502,7 @@ ver0.28.8
 φ：（whenlist,（らんだむとーく選択_JP）＝＝,0,OFF,1,ON）
 \![*]\q[ENとーく,On設定変更_処理,らんだむとーく選択_EN,1,せってい]φ
 φ：（whenlist,（らんだむとーく選択_EN）＝＝,0,OFF,1,ON）
+
 
 喋り間隔　φ：（for、0、180、30、\q[（when,（喋り間隔）＞＝（Ｃ０）,■,□）,On設定代入_処理,喋り間隔,（Ｃ０）,せってい]）
 【現在φ：（when,（喋り間隔）＝＝0,トーク停止,（喋り間隔）秒）】
@@ -540,7 +555,7 @@ ver0.28.8
 
 \![*]現在実装されている文字φ：表記はISO 15924に準拠
 ほにゃく元φ：Hira、Kana
-ほにゃく先φ：Hira、Kana、Latn、Hang、Deva、Arab、Cyrl、Mlym
+ほにゃく先φ：Phnx,Hebr,Arab,Runr,Latn,Cyrl,Hang,Deva,Mlym,Hira,Kana
 
 \![*]注意事項
 翻訳機能ではないです。
@@ -555,7 +570,6 @@ ver0.28.8
 
 
 （call,めにゅー末尾,せってい）
-
 
 
 ＃目次：シェル設定
@@ -831,7 +845,50 @@ ver0.28.8
 \p[3]（call,きがえりすと_きがえ処理,（きがえいんぽーと））
 
 
+＊フォントせってい
+\0\b[2]\![quicksection,true]《フォントせってい》
 
+\![*]\q[フォント一覧,フォント一覧]
+現在のフォントはφ：（nowFontName_SJIS）
+
+\![*]\q[フォント変更,On設定変更_処理,フォント_変更タイミング,2,フォントせってい]φ
+φ：（whenlist,（フォント_変更タイミング）＝＝,0,固定,1,自己トーク毎,2,トーク毎）
+\![*]\q[フォントリスト変更,フォントリスト_にゅうりょく]
+
+（call,めにゅー末尾,めにゅー）
+
+＊フォント一覧
+\0\b[2]\![quicksection,true]《フォント一覧》
+現在のフォントφ：（nowFontName_SJIS）
+
+フォント名を選択することで、
+自由に指定することができます。
+
+（call,ふぉんと一覧それっぽい処理,（SJISフォントリスト））
+
+
+（call,めにゅー末尾,フォントせってい）
+
+＠ふぉんと一覧それっぽい処理
+（when、（変数「SJISフォントリスト」の存在）＝＝0
+	、未設定です。\n自動でデフォルトフォントが適応されます。
+	、（for、0、（Ａの数）-1、1、\![*]\f[name,（Ａ（Ｃ０））]\q[（Ａ（Ｃ０））,On設定代入_処理,nowFontName_SJIS,（Ａ（Ｃ０））,フォント一覧]\n）\f[name,default]
+）
+
+＊フォントリスト_にゅうりょく
+\![open,inputbox,SJISフォントリスト]
+\0\b[2]\![quicksection,true]《フォント設定説明》
+開いたダイアログボックスに、
+フォント名を入力してください。
+
+カンマ区切りで複数指定可。
+指定の条件でランダムに使用します。
+
+（call,めにゅー末尾,フォントせってい）
+
+
+＊SJISフォントリスト入力ぼっくす
+＞フォントせってい
 
 ＃目次：はろーわーるど
 ＃\q[,Onいろいろなはろーわーるど,]φ：（call,uni,）
@@ -1046,7 +1103,7 @@ ver0.28.8
 
 ＊うにこでてすとA入力ぼっくす
 \0\b[2]\![quicksection,true]（うにこでてすとA）
-（call,uni,（うにこでてすとA））
+\f[height,13]（call,uni,（うにこでてすとA））\f[height,default]
 
 
 （call,めにゅー末尾,でばっぐ）
@@ -1203,7 +1260,7 @@ nyan
 （set,せんてんす_ほにゃく
 	,（call,honyaku
 		,（hira2kata,（せんてんす_よみ））
-		,（when,（ほにゃくこてい）＝＝0,（ほにゃくしてい）,（乱数1～8））
+		,（when,（ほにゃくこてい）＝＝0,（ほにゃくしてい）,（ほにゃく実装済みリスト））
 		,（ほにゃくふりーだむふらぐ）
 	）
 ）φ
@@ -1221,7 +1278,7 @@ nyan
 （set,せんてんす_ほにゃく
 	,（call,honyaku
 		,（hira2kata,（せんてんす_しんぷる））
-		,（when,（ほにゃくこてい）＝＝0,（ほにゃくしてい）,（乱数1～8））
+		,（when,（ほにゃくこてい）＝＝0,（ほにゃくしてい）,（ほにゃく実装済みリスト））
 		,（ほにゃくふりーだむふらぐ）
 	）
 ）φ
@@ -1350,33 +1407,41 @@ nyan
 \0インターフェース 終了します
 
 
+＃Ａ０：表示する短文
+＠SJIS表示
+\f[name,（nowFontName_SJIS）]（Ａ０）\f[name,default]
+
 ＃（call,uni,0048_0065_006C_006C_006F_0020_0057_006F_0072_006C_0064_0021）
 ＃うにこーどのあれをあんだーばーで繋いだあれをぶち込むとあれしてくれます。
 ＃なんとサロゲートペアでも書字方向逆でもなんとかしてくれる。えらい。
 ＃Ａ０：復号したい符号文
 ＠uni
-（set,うにこでもじすう,（split,（Ａ０）,_,0,0））（for,0,（うにこでもじすう）-1,1,（call,ふぉんと判定,（Ｓ（Ｃ０））,（Ｓ（calc,（Ｃ０）+1）））\_u[0x（Ｓ（Ｃ０））]）\f[name,default]（set,nowFontName,none）
+（set,うにこでもじすう,（split,（Ａ０）,_,0,0））（for,0,（うにこでもじすう）-1,1,（call,ふぉんと判定_uni,（Ｓ（Ｃ０））,（Ｓ（calc,（Ｃ０）+1）））\_u[0x（Ｓ（Ｃ０））]）\f[name,default]（set,nowFontBlock_uni,none）
 
 
 ＃（Ａ０）：問題のコード
 ＃（Ａ１）：ひとつあとの。サロゲートペア判定用。
-＠ふぉんと判定
+＠ふぉんと判定_uni
 （nop,
 	（set,ConvertGlyph10,（call,16to10_conversion,（Ａ０）））
 	（whenlist、（ConvertGlyph10）
 		、＞56320、（nop,なんもしない）		
-		、＞55296、（set,Glyph_ID_10,（call,サロゲートペア処理,（Ａ０）,（Ａ１）））（フォント探索）
-		、（set,Glyph_ID_10,（ConvertGlyph10））（フォント探索）
+		、＞55296、（set,Glyph_ID_10,（call,サロゲートペア処理,（Ａ０）,（Ａ１）））（set,FoundFontBlock_uni,（グリフブロック探索_uni））
+		、（set,Glyph_ID_10,（ConvertGlyph10））（set,FoundFontBlock_uni,（グリフブロック探索_uni））
 	）
-）（when、（nowFontName）！＝（FoundFontName）、\f[name,（FoundFontName）]（set,nowFontName,（FoundFontName）））
+）（when、（nowFontBlock_uni）！＝（FoundFontBlock_uni）、\f[name,（フォント探索_uni）]（set,nowFontBlock_uni,（FoundFontBlock_uni）））
 
 ＃（Ａ０）：上位16進数
 ＃（Ａ１）：下位16進数
 ＠サロゲートペア処理
 （calc,（call,2to10_conversion,（sprintf,%010d,（call,10to2_conversion,（call,16to10_conversion,（Ａ０））-55296））（sprintf,%010d,（call,10to2_conversion,（call,16to10_conversion,（Ａ１））-56320）））+65536）
 
-＠フォント探索
-（set,FoundFontName,fontNotFound）（set,FoundFontName,（フォントリスト））（when,（FoundFontName）＝＝fontNotFound,（set,FoundFontName,メイリオ）,（nop,なんもしない））
+＠フォント探索_uni
+（nop,
+	（set,FoundFontName_uni,fontNotFound）
+	（set,FoundFontName_uni,（（FoundFontBlock_uni）））
+	（when,（FoundFontName_uni）＝＝fontNotFound,（set,FoundFontName_uni,メイリオ））
+）（FoundFontName_uni）
 
 ＃ほにゃく→復号
 ＃Ａ０：ほにゃくされるせんてんす（ひらがなかカタカナ）
@@ -1384,7 +1449,7 @@ nyan
 （call,uni,
 	（call,honyaku
 		,（hira2kata,（Ａ０））
-		,（when,（ほにゃくこてい）＝＝0,（ほにゃくしてい）,（乱数1～8））
+		,（when,（ほにゃくこてい）＝＝0,（ほにゃくしてい）,（ほにゃく実装済みリスト））
 		,（Ａ１）
 	）
 ）
@@ -1475,15 +1540,7 @@ nyan
 	（set,Rev_conversion,（reverse,（Ａ０）））
 	（set,Len_conversion,（length,（Rev_conversion））-1）
 	（set,Result_conversion,0）
-	（for,0,（Len_conversion）,1
-		,（set,Result_conversion
-			,（Result_conversion）
-			　+
-			（call,Hex参照,（at,（Rev_conversion）,（Ｃ０）））
-			　*
-			（call,calc_exp,16,（Ｃ０））
-		）
-	）
+	（for,0,（Len_conversion）,1,（set,Result_conversion,（Result_conversion）+（call,Hex参照,（at,（Rev_conversion）,（Ｃ０）））*（call,calc_exp,16,（Ｃ０））））
 	（set,Rev_conversion,）
 	（set,Len_conversion,）
 ）（Result_conversion）（set,Result_conversion,）
@@ -1494,15 +1551,7 @@ nyan
 	（set,Rev_conversion,（reverse,（Ａ０）））
 	（set,Len_conversion,（length,（Rev_conversion））-1）
 	（set,Result_conversion,0）
-	（for,0,（Len_conversion）,1
-		,（set,Result_conversion
-			,（Result_conversion）
-			　+
-			（at,（Rev_conversion）,（Ｃ０））
-			　*
-			（call,calc_exp,2,（Ｃ０））
-		）
-	）
+	（for,0,（Len_conversion）,1,（set,Result_conversion,（Result_conversion）+（at,（Rev_conversion）,（Ｃ０））*（call,calc_exp,2,（Ｃ０））））
 	（set,Rev_conversion,）
 	（set,Len_conversion,）
 ）（Result_conversion）（set,Result_conversion,）
@@ -1514,25 +1563,64 @@ nyan
 	（set,Result_conversion,（Ａ０）%2）
 	（set,Shou_conversion,（Ａ０）/2）
 	（while,（Shou_conversion）＞0,
-		（set,Result_conversion
-			,（calc,（Shou_conversion）%2）（Result_conversion）
-		）
+		（set,Result_conversion,（calc,（Shou_conversion）%2）（Result_conversion））
 		（set,Shou_conversion,（Shou_conversion）/2）
 	）
 	（set,Len_conversion,）
 	（set,Shou_conversion,）
 ）（Result_conversion）（set,Result_conversion,）
 
+
 ＃まいなすはむりです
+＃計算してられないので頻用する分はハードコーディングします
 ＃（Ａ０）：底
 ＃（Ａ１）：冪乗数
 ＠calc_exp
+（whenlist,（Ａ０）＝＝
+		,2,（whenlist,（Ａ１）＝＝
+				,0,1
+				,1,2
+				,2,4
+				,3,8
+				,4,16
+				,5,32
+				,6,64
+				,7,128
+				,8,256
+				,9,512
+				,10,1024
+				,11,2048
+				,12,4096
+				,13,8192
+				,14,16384
+				,15,32768
+				,16,65536
+				,17,131072
+				,18,262144
+				,19,524288
+				,20,1048576
+				,（call,calc_exp_maji,（Ａ０）,（Ａ１））
+			）
+		,16,（whenlist,（Ａ１）＝＝
+				,0,1
+				,1,16
+				,2,256
+				,3,4096
+				,4,65536
+				,5,1048576
+				,（call,calc_exp_maji,（Ａ０）,（Ａ１））
+			）
+		,（call,calc_exp_maji,（Ａ０）,（Ａ１））
+	）
+
+＃まいなすはむりです
+＃（Ａ０）：底
+＃（Ａ１）：冪乗数
+＠calc_exp_maji
 （whenlist,（Ａ１）＝＝
 	,0,（set,exp_result,1）
 	,1,（set,exp_result,（Ａ０））
-	,（set,exp_result,（Ａ０））
-	（for,2,（Ａ１）,1
-		,（set,exp_result,（exp_result）*（Ａ０）））
+	,（set,exp_result,（Ａ０））（for,2,（Ａ１）,1,（set,exp_result,（exp_result）*（Ａ０）））
 ）（exp_result）（set,exp_result,）
 
 
@@ -1581,11 +1669,6 @@ nyan
 （set,（Ｒ１）,（Ｒ２））\p[3]
 ＞（Ｒ０）
 
-
-＃\q[（ラベル）,On設定代入_処理,（代入先変数名）,（代入する文字列）,（呼び出し元）]
-＊On設定代入_処理
-（set,（Ｒ０）,（Ｒ１））
-＞（Ｒ２）
 
 
 
