@@ -1,4 +1,4 @@
-＃ver0.29.1
+＃ver0.29.2
 ＃めも
 ＃あるいはあらゆるものであるがゆえになにものでもないものについて
 ＃否定と否定の境界上で笑うもの
@@ -11,7 +11,7 @@
 ＃バージョン上げたら書き換えてください
 ＃適当なのでずれてることがおおい
 ＠version表示
-ver0.29.0
+ver0.29.2
 
 
 ＃目次：イベント各種
@@ -20,10 +20,7 @@ ver0.29.0
 ＃単語群は好きにやっていきたい、そういう気持ち
 ＊OnSatoriLoad
 ＄単語群「＊」の重複回避	無効
-＃（when,（音声フラグ）＝＝1,（softalk（バイト値,1）/X:0 /Z:C:\\Users\\kazun\\Desktop\\つーる\\うかがか\\ghost\\VitreumRisum\\ghost\\master\\saori\\voice\\voicelist.txt））
 
-＃＊OnSatoriUnload
-＃（softalk（バイト値,1）/close_now）
 
 ＊OnFirstBoot
 （起動時シェル位置処理）
@@ -1020,7 +1017,6 @@ ver0.29.0
 
 
 
-＃（softalk（バイト値,1）/R:C:\\Users\\kazun\\Desktop\\つーる\\うかがか\\ghost\\VitreumRisum\\ghost\\master\\saori\\voice\\（Ａ０）.wav /W:（Ａ０））
 ＊でばっぐ_音声テスト
 \0\b[2]\![quicksection,true]《音声処理関係》
 ＿でばっぐ_音声処理
@@ -1051,7 +1047,6 @@ ver0.29.0
 
 ＊でばっぐ_おーぷん
 \0ひらきます
-（softalk（バイト値,1）/Z:C:\\Users\\kazun\\Desktop\\つーる\\うかがか\\ghost\\VitreumRisum\\ghost\\master\\saori\\voice\\voicelist.txt　/X:0）
 
 （call,めにゅー末尾,でばっぐ_音声テスト）
 
