@@ -1,4 +1,4 @@
-＃ver0.29.3
+＃ver0.29.5
 ＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃
 ＃
 ＃　変数等の初期化。
@@ -19,6 +19,7 @@
 ＄なでられ持続秒数	２
 ＄なでられ反応回数	６０
 ＄トーク中のなでられ反応	無効
+
 //私用
 ＄羽根色_変更タイミング	1
 ＄羽根色_変更パターン	0
@@ -27,10 +28,8 @@
 ＄箱色_枠線有無	0
 ＄箱色_透明度	1
 ＄音声フラグ	0
+＄一人称トークふらぐ	1
 ＄二人称トークふらぐ	0
-＄持ち物	_重いガラス
-＄持ち物_ユーザー	_くじらを忘れた針
-＄持ち物_EN	_the most beautiful scissors
 ＄でばっぐもーど	0
 ＄でばっぐふらぐA	0
 ＄でばっぐ活用ろぐ	
@@ -54,13 +53,61 @@
 ＄ほにゃくこてい	1
 ＄ほにゃくしてい	3
 ＄ほにゃくふりーだむふらぐ	0
-＄きがえりすと	■master_01_04_07_01_04_07
 ＄Lacrimaeこみゅ予約	0
 
 ＄フォント_変更タイミング	1
 ＄SJISフォントリスト	メイリオ
 ＄nowFontBlock_uni	none
 ＄nowFontName_SJIS	メイリオ
+
+＄めも編集モード	0
+＄日記文代入用めも	明るく忙しかった銀木犀
+＄日記用文めも1	明るく忙しかった銀木犀
+＄日記用文めも2	２
+＄日記用文めも3	３
+＄日記用文めも4	４
+＄日記用文めも5	５
+＄日記用文めも6	６
+＄日記用文めも7	７
+＄日記用文めも8	８
+＄日記用文めも9	９
+＄日記用文めも10	１０
+
+
+
+//各種記録系
+＄diary_name_VitreumRisum	VitreumRisumの日記
+＄diary_name_User	（ユーザ名）の日記
+
+＄持ち物	_重いガラス
+＄持ち物_ユーザー	_くじらを忘れた針
+＄持ち物_EN	_the most beautiful scissors
+＄持ち物_import_A	_うつくしく暖かだった黒色
+＄持ち物_import_B	_a white orange
+
+＄diary_text_VitreumRisum	■date_2018_08_18_重いガラス____
+＄diary_text_User	■date_2018_08_18_くじらを忘れた針____
+＄diary_text_import_A	■date_2018_08_18_お嬢様_黄緑色の朝__よさのタイム_己は誰？
+＄diary_text_import_B	■date_2018_08_18_冬、ろうかではリンドウとポーチが勝負したいよ_おれは……_俺はどうして？_海でクジャクが出来事を壊す_Their time is darker.
+
+＄きがえりすと	■master_01_04_07_01_04_07
+＄きがえりすと_import	■cubical_06_20_15_14_21_23_22_12
+
+
+＄ini_持ち物	_重いガラス
+＄ini_持ち物_ユーザー	_くじらを忘れた針
+＄ini_持ち物_EN	_the most beautiful scissors
+＄ini_持ち物_import_A	_うつくしく暖かだった黒色
+＄ini_持ち物_import_B	_a white orange
+
+＄ini_diary_text_VitreumRisum	■date_2018_08_18_重いガラス____
+＄ini_diary_text_User	■date_2018_08_18_くじらを忘れた針____
+＄ini_diary_text_import_A	■date_2018_08_18_お嬢様_黄緑色の朝__よさのタイム_己は誰？
+＄ini_diary_text_import_B	■date_2018_08_18_冬、ろうかではリンドウとポーチが勝負したいよ_おれは……_俺はどうして？_海でクジャクが出来事を壊す_Their time is darker.
+
+＄ini_きがえりすと	■master_01_04_07_01_04_07
+＄ini_きがえりすと_import	■cubical_06_20_15_14_21_23_22_12
+
 
 ＃里々でははじめからいくつかのスクリプトの追加作業を自動で行ってくれています。
 ＃
@@ -94,6 +141,6 @@
 
 ＠SAORI
 aya,saori/yaya.dll
-kisaragi,saori/\kisaragi\kisaragi.dll
+＃kisaragi,saori/\kisaragi\kisaragi.dll
 softalk,saori/\softalk\SofTalk.exe
 saori_test,saori/\test\Saori_test.exe
