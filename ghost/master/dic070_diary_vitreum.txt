@@ -1,4 +1,4 @@
-”ver0.29.5
+”ver0.29.6
 ”“ú‹L—p
 ”¡date_2022_03_12_text_a_b_c_d_e¡date_2022_03_11_text_a_b_c_d_e¡
 
@@ -22,9 +22,9 @@
 @E\q[‚¹‚Á‚Ä‚¢,Ý’è_diary]
 @E\q[‚¹‚Â‚ß‚¢,à–¾_diary]
 
-E\q[‚Ä‚·‚Æ,‚Ä‚·‚Æ_diary]
-
 icall,‚ß‚É‚ã[––”ö,‚ß‚É‚ã[j
+
+iwhenAi‚Å‚Î‚Á‚®‚à[‚Çj1AE\q[‚Ä‚·‚Æ,‚Ä‚·‚Æ_diary]j
 
 ––{•¶‹L“ü_diary
 \0\b[2]\![quicksection,true]icall,“ú‹L“ú•t¶¬_”CˆÓ,c,i”CˆÓ”Nj,i”CˆÓŒŽj,i”CˆÓ“újj
@@ -46,7 +46,7 @@
 
 
 –On”CˆÓ“ú•tƒZƒbƒg‘ã“ü
-iset,”CˆÓ”N,i‚q‚Ojjiset,”CˆÓŒŽ,i‚q‚Pjjiset,”CˆÓ“ú,i‚q‚Qjj
+\p[3]iset,”CˆÓ”N,i‚q‚Ojjiset,”CˆÓŒŽ,i‚q‚Pjjiset,”CˆÓ“ú,i‚q‚Qjj
 „i‚q‚Rj
 
 ”¢¢¢¢@¢¢@¢¢
@@ -64,7 +64,7 @@
 ”‚q‚RFãŒÀ’l
 ”\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,3,1]
 –On”CˆÓ“ú•tÝ’è_ˆ—
-\p[2]inop,
+\p[3]inop,
 	iset,”CˆÓi‚q‚Oj
 		,iwhen,i‚q‚Qj0
 			,i”CˆÓi‚q‚Ojj-i‚q‚Pj
@@ -103,6 +103,7 @@
 iwhenlistAi‚q‚Qj
 	A‚ç‚ñ‚¾‚Þ‚Æ[‚­_‚à‚¤‚¢‚Á‚©‚¢_ˆ—Aicall,‚ç‚ñ‚¾‚Þ‚Æ[‚­_‚à‚¤‚¢‚Á‚©‚¢_ˆ—,i‚q‚Oj,i‚q‚Rjj
 	AŽ‚¿•¨ŒÂ•Ê•\Ž¦_ˆ—Aicall,Ž‚¿•¨ŒÂ•Ê•\Ž¦_ˆ—,i‚q‚Oj,i‚q‚Pj,i‚q‚Rj,i‚q‚Sjj
+	A“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—Aicall,“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—,i‚q‚Rj,i‚q‚Sjj
 	A‚È‚¢‚Ì‚Å‚Í
 j
 
@@ -121,35 +122,37 @@
 
 iforA1A16A1Aicall,ŠÛ”Ô†ŒÄ‚Ño‚µ,i‚b‚Ojj@i“ú‹L—p•¶‚ß‚ài‚b‚Ojj\nj
 
-iwhenlistAi‚q‚Rj
+\0iwhenlistAi‚q‚Rj
 	A‚ç‚ñ‚¾‚Þ‚Æ[‚­_‚à‚¤‚¢‚Á‚©‚¢_ˆ—Aicall,‚ç‚ñ‚¾‚Þ‚Æ[‚­_‚à‚¤‚¢‚Á‚©‚¢_ˆ—,i‚q‚Pj,i‚q‚Sjj
 	AŽ‚¿•¨ŒÂ•Ê•\Ž¦_ˆ—Aicall,Ž‚¿•¨ŒÂ•Ê•\Ž¦_ˆ—,i‚q‚Pj,i‚q‚Qj,i‚q‚Sj,i‚q‚Tjj
+	A“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—Aicall,“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—,i‚q‚Sj,i‚q‚Tjj
 	A‚È‚¢‚Ì‚Å‚Í
 j
 
 –Ý’è_diary
-‚¢‚Â‚©‚ ‚é
+\0‚¢‚Â‚©‚ ‚é
 
 „“ú‹L‚ß‚É‚ã[
 
 –à–¾_diary
-‚µ‚Î‚ç‚­‚È‚¢‚©‚à
+\0‚µ‚Î‚ç‚­‚È‚¢‚©‚à
 
 „“ú‹L‚ß‚É‚ã[
 
 –‚Ä‚·‚Æ_diary
+\0
 Q”»’èƒeƒXƒg_diary
 Q“ú•tƒ{ƒbƒNƒX‚ ‚Á‚½‚í‚Ä‚·‚Æ
 icall,‚ß‚É‚ã[––”ö,“ú‹L‚ß‚É‚ã[j
 
 –”»’èƒeƒXƒg_diary
-‚Æ‚è‚Ü
+\0‚Æ‚è‚Ü
 i“ú‹L”»’è_’èŠúj
 
 „‚Ä‚·‚Æ_diary
 
 –“ú•tƒ{ƒbƒNƒX‚ ‚Á‚½‚í‚Ä‚·‚Æ
-‚¹‚Â‚È‚³
+\0‚¹‚Â‚È‚³
 \![open,dateinput,ID,•\Ž¦ŽžŠÔ,”N,ŒŽ,“ú,ƒIƒvƒVƒ‡ƒ“]
 
 „‚Ä‚·‚Æ_diary
@@ -168,7 +171,7 @@ date_icall,“ú‹L“ú•t¶¬_Œ»Ý,ajifor,0,4,1,_icall,’Z•¶¶¬_diary,i‚b‚Ojjj
 „“ú‹L‚ß‚É‚ã[
 
 –User_–{•¶¶¬_‚È‚º‚©ˆÏ‘õ‘ã“ü‚·‚é_diary_Œo—R’n
-iUser_–{•¶¶¬_‚È‚º‚©ˆÏ‘õ‘ã“ü‚·‚é_diaryj
+\p[3]iUser_–{•¶¶¬_‚È‚º‚©ˆÏ‘õ‘ã“ü‚·‚é_diaryj
 „–{•¶‹L“ü_diary
 
 —User_–{•¶¶¬_‚È‚º‚©ˆÏ‘õ‘ã“ü‚·‚é_diary
@@ -242,8 +245,6 @@ date_icall,“ú‹L“ú•t¶¬_”CˆÓ,a,i”CˆÓ”Nj,i”CˆÓŒŽj,i”CˆÓ“újjifor,1,5,1,_
 ”icall,“ú‹L•\Ž¦_ƒƒCƒ“,User_diaryj
 ”‚`‚OF“ú‹LƒŠƒXƒg–¼
 –“ú‹L•\Ž¦_ƒƒCƒ“
-iwhen,i‘O–Ê•\Ž¦‚à[‚Çj0,\1,\0j\![quicksection,true]si‚`‚Ojt
-
 \0\b[2]\![quicksection,true]ƒÓ
 iforAi“ú‹Lƒy[ƒWæ“ªjAi“ú‹Lƒy[ƒW––”öjA1
 	A\![*]\q[icall,“ú‹L“ú•t’Šo,ia_“ú‹L’u‚«êi‚b‚Ojj,bj,On“ú‹LŒÂ•Ê•\Ž¦,ia_“ú‹L’u‚«êi‚b‚Ojj,i‚`‚Oj]\n
@@ -255,8 +256,10 @@ date_icall,“ú‹L“ú•t¶¬_”CˆÓ,a,i”CˆÓ”Nj,i”CˆÓŒŽj,i”CˆÓ“újjifor,1,5,1,_
 	A\q[r,On“ú‹L•\Ž¦ˆ—,iŽŸ‚Ìƒy[ƒWj,i‚`‚Oj] \q[t,On“ú‹L•\Ž¦ˆ—,iƒy[ƒW‘”j,i‚`‚Oj]
 	A[   
 j
-iwhen,i‘O–Ê•\Ž¦‚à[‚Çj0,\1j
+
+\1\![quicksection,true]si‚`‚Ojt
 icall,‚ß‚É‚ã[––”ö,“ú‹L‚ß‚É‚ã[j
+
 
 —“ú‹L“ú•t’Šo
 inop,isplit,i‚`‚Oj,_,0,1j
@@ -301,4 +304,29 @@ date_icall,“ú‹L“ú•t¶¬_”CˆÓ,a,i”CˆÓ”Nj,i”CˆÓŒŽj,i”CˆÓ“újjifor,1,5,1,_
 \1
 si‚`‚Pjt
 
+\q[•ÒWƒ‚[ƒh,On“ú‹LŒÂ•Ê•ÒW•\Ž¦,i‚`‚Oj,i‚`‚Pj]
 \q[‚à‚Ç‚é,On“ú‹L•\Ž¦ˆ—,iŒ»Ý‚Ìƒy[ƒWj,i‚`‚Pj]@\q[‚Æ‚¶‚é,‚ß‚É‚ã[_I—¹]
+
+
+”\q[ia_“ú‹L’u‚«êi‚b‚Ojj,On“ú‹LŒÂ•Ê•ÒW•\Ž¦,ia_“ú‹L’u‚«êi‚b‚Ojj,i‚`‚Oj]
+”‚q‚OF“ú‹L’P‘Ì
+”‚q‚PF“ú‹LƒŠƒXƒg–¼
+–On“ú‹LŒÂ•Ê•ÒW•\Ž¦
+icall,“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—,i‚q‚Oj,i‚q‚Pjj
+
+–“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—
+\0\b[2]\![quicksection,true]inop,isplit,i‚`‚Oj,_,0,1jjisprintf,%04d/%02d/%02d,i‚r‚Pj,i‚r‚Qj,i‚r‚Rjj
+
+\q[i‚r‚Sj,Onƒƒ‚E“¾_diary,SJIS,i‚r‚Sj,“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—,i‚`‚Oj,i‚`‚Pj]
+\q[i‚r‚Tj,Onƒƒ‚E“¾_diary,SJIS,i‚r‚Tj,“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—,i‚`‚Oj,i‚`‚Pj]
+\q[i‚r‚Uj,Onƒƒ‚E“¾_diary,SJIS,i‚r‚Uj,“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—,i‚`‚Oj,i‚`‚Pj]
+\q[i‚r‚Vj,Onƒƒ‚E“¾_diary,SJIS,i‚r‚Vj,“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—,i‚`‚Oj,i‚`‚Pj]
+\q[i‚r‚Wj,Onƒƒ‚E“¾_diary,SJIS,i‚r‚Wj,“ú‹LŒÂ•Ê•ÒW•\Ž¦_ˆ—,i‚`‚Oj,i‚`‚Pj]
+
+\1
+si‚`‚Pjt
+
+\q[‰{——ƒ‚[ƒh,On“ú‹LŒÂ•Ê•\Ž¦,i‚`‚Oj,i‚`‚Pj]
+\q[‚à‚Ç‚é,On“ú‹L•\Ž¦ˆ—,iŒ»Ý‚Ìƒy[ƒWj,i‚`‚Pj]@\q[‚Æ‚¶‚é,‚ß‚É‚ã[_I—¹]
+
+”\q[‚±‚Ìƒg[ƒN‚ðƒƒ‚‚É‹L˜^‚·‚é,Onƒƒ‚E“¾_diary,i‚`‚Oj,i’Z•¶“ü‚êi‚`‚Pjj,‚ç‚ñ‚¾‚Þ‚Æ[‚­_‚à‚¤‚¢‚Á‚©‚¢_ˆ—,i‚`‚Pj]
