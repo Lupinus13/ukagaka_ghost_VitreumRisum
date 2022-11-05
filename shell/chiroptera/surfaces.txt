@@ -1,0 +1,41 @@
+
+// シェルの動作を記述するファイル。
+// 詳しくはukadoc（http://ssp.shillest.net/ukadoc/manual/descript_shell_surfaces.html）へ。
+
+////////////////////////////////////////////////////////////////////////////////
+// 文字コードの設定
+////////////////////////////////////////////////////////////////////////////////
+
+//------------------------------------------------------------------------------
+// 文字コードはShift_JISで、記述は新定義で行う、という意味。
+// 以下はとりあえずコピペで書いておきましょう。
+charset,Shift_JIS
+
+descript
+{
+	version,1
+}
+
+surface0
+{
+	element0,base,wing_b.png,0,0
+	element1,overlay,surface0000.png,0,0
+	element2,overlay,wing_f.png,0,0
+}
+
+surface1
+{
+	element0,base,surface0001.png,0,0
+}
+
+surface2
+{
+	element0,base,surface0002.png,0,0
+}
+
+
+surface10
+{
+	element0,base,surface0010.png,0,0
+}
+

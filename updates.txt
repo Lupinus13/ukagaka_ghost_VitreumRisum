@@ -20,6 +20,17 @@ file,ghost/master/satori_conf.txt65c4412d6f691e19024a1e6c32e6764dsize=4544dat
 file,ghost/master/satori_license.txt078ffc36f3374648bf523ae197f4765csize=944date=2020-04-18T20:28:38
 file,install.txtc8b26ea056b1040e1ea56033f3c25422size=72date=2020-04-18T20:28:38
 file,readme.txt0b9bdf3851002a48aac7f38d68b31a20size=2355date=2020-04-18T21:18:44
+file,shell/chiroptera/descript.txt90d5f4061fcd39ea4038781795e90e3csize=2493date=2022-11-05T22:09:14
+file,shell/chiroptera/menu_background_vitreum.pngc7698e79c2a5a54d78b80605481ddf0bsize=601628date=2019-05-12T14:46:40
+file,shell/chiroptera/menu_foreground_vitreum.pngece5b9699f87c667144b9c5da8111b16size=601628date=2019-05-12T14:46:56
+file,shell/chiroptera/menu_side_vitreum.pngf958aac0221d19a425253ea28dcfc82asize=19591date=2019-05-12T14:25:08
+file,shell/chiroptera/surface0000.png2c74f7934c90043f5526ef70b554b0a9size=192627date=2018-09-19T02:28:52
+file,shell/chiroptera/surface0001.png49ee723524975158cca9192d638c3912size=192627date=2018-09-19T12:30:08
+file,shell/chiroptera/surface0002.png4017c17361c84930335992849d2b6deesize=192627date=2018-09-19T12:20:36
+file,shell/chiroptera/surface0010.pngbce02ccf632ed227b4ec285f9102986csize=860date=2018-01-16T15:45:00
+file,shell/chiroptera/surfaces.txtd9c7e434453c7e2474dccf2ab524cbb0size=852date=2022-11-05T22:09:11
+file,shell/chiroptera/wing_b.pngea585cf98ce6f89c53d44caa50160772size=1827date=2022-10-31T22:52:56
+file,shell/chiroptera/wing_f.png063f88e3a45165f90eac349a587f0203size=1930date=2022-10-31T22:52:21
 file,shell/cubical/cube_hidari_01.png1d24dbcf54a5718cc7833ac95e8d351bsize=598date=2020-04-18T20:28:38
 file,shell/cubical/cube_hidari_02.png8863aaef37b11146e953fb7e7ee672casize=601date=2020-04-18T20:28:38
 file,shell/cubical/cube_hidari_03.pngd3b0aec5c142616f8f850af972186cd6size=597date=2020-04-18T20:28:38
