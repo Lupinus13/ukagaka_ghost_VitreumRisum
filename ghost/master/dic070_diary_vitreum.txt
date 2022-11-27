@@ -1,4 +1,4 @@
-”ver0.29.6
+”ver0.29.9
 ”“ú‹L—p
 ”¡date_2022_03_12_text_a_b_c_d_e¡date_2022_03_11_text_a_b_c_d_e¡
 
@@ -183,7 +183,6 @@ date_icall,“ú‹L“ú•t¶¬_”CˆÓ,a,i”CˆÓ”Nj,i”CˆÓŒj,i”CˆÓ“újjifor,1,5,1,_
 
 —’Z•¶¶¬_diary
 iwhen,i‚`‚Oj0bbi—”0`2jI0,
-	i•K—v‚É‰‚¶‚ÄÄ¶¬‚·‚é‚â‚Âji•¶§Œäƒtƒ‰ƒO‚ğƒ‰ƒ“ƒ_ƒ€‰»‚·‚é‚â‚Âj
 	i‚ç‚ñ‚¾‚Ş’Z•¶j
 	iset,©ŒÈƒg[ƒN,0j
 j
