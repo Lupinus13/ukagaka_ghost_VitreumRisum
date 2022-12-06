@@ -3,11 +3,11 @@ ghost/master/descript.txtf1c837582431c4ce996c26c32467be96size=2147date=2020-0
 ghost/master/dic004_transcription_vitreum.txt975d9ee3008106e210fdd901dcab0d70size=22182date=2021-09-15T00:27:46
 ghost/master/dic005_fontlist_vitreum.txtb011bce238bc1cf5a160c39add65b0b8size=17470date=2021-09-15T01:59:10
 ghost/master/dic00_common.txt64ce08e37fec40eada380ea6d84b62f2size=629date=2021-09-14T23:59:05
-ghost/master/dic01_main_vitreum.txt90c7031c47801d1ed585c6637b8f9680size=62041date=2022-11-20T12:44:52
+ghost/master/dic01_main_vitreum.txtf508e2f10d9e8f91c470cf1e085536bcsize=62116date=2022-12-07T00:14:31
 ghost/master/dic02_string_vitreum.txt113fdd452b18d0bbbd95fa9ecadfeee2size=162date=2020-04-18T22:33:42
 ghost/master/dic070_diary_vitreum.txtce07ecbc1389cbceea7c5a69ac3218e0size=12407date=2022-11-20T12:47:22
-ghost/master/dic100_function_jp_vitreum.txtec994591304d1e7f1f8e6425cd9758f1size=27035date=2022-11-20T12:47:31
-ghost/master/dic101_words_jp_vitreum.txtf0a43222e9ddfeed5c1d95740e49eff3size=17631date=2022-11-20T12:47:40
+ghost/master/dic100_function_jp_vitreum.txt5502d48c9a0f8c28f3deb9e5d3ab5e22size=28327date=2022-12-07T00:14:14
+ghost/master/dic101_words_jp_vitreum.txtd0d2b2c020f7ed2abd222be39598200csize=18562date=2022-12-07T00:14:02
 ghost/master/dic102_char_jp_vitreum.txtad880db672d7d21f3c88188c70532b7esize=13715date=2020-04-18T20:28:38
 ghost/master/dic200_function_en_vitreum.txtf35f8128e615bf624d487d7c18d4e9a7size=8579date=2021-12-31T17:28:49
 ghost/master/dic201_word_en_vitreum.txt102c72201014612a173e56cf2cf92de9size=5528date=2021-09-06T16:42:46
@@ -631,4 +631,4 @@ shell/master/wingr3_24.png6949e55015283c03b028c7057746e3ecsize=1829date=2020-
 shell/master/wingr3_25.png9152d8d952d302d1351c7526e21cbd43size=1732date=2020-04-18T20:28:38
 shell/master/wingr3_26.png06d9ded5189b8d8d4a304566e23f512fsize=1741date=2020-04-18T20:28:38
 shell/master/wingr3_27.png6129d8349eebb3507308ad4b5c4196c8size=1763date=2020-04-18T20:28:38
-version.txtf604520616667eefe525d210085aa10csize=8843date=2022-03-29T16:57:11
+version.txt31139b5b9b4cf474dfd57c72699cccd3size=9202date=2022-12-07T00:18:41
