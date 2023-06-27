@@ -1,10 +1,10 @@
-”ver0.29.9
+”ver0.30.2
 ”“ú‹L—p
 ”¡date_2022_03_12_text_a_b_c_d_e¡date_2022_03_11_text_a_b_c_d_e¡
 
 
 –“ú‹L‚ß‚É‚ã[
-\0\b[2]\![quicksection,true]s“ú‹L‚ß‚É‚ã[t
+\1\b[2]\![quicksection,true]s“ú‹L‚ß‚É‚ã[t
 
 \![*]Vitreum
 @E\q[idiary_name_VitreumRisumj,On“ú‹L•\Ž¦ˆ—,1,diary_text_VitreumRisum]
@@ -27,7 +27,7 @@
 iwhenAi‚Å‚Î‚Á‚®‚à[‚Çj1AE\q[‚Ä‚·‚Æ,‚Ä‚·‚Æ_diary]j
 
 ––{•¶‹L“ü_diary
-\0\b[2]\![quicksection,true]icall,“ú‹L“ú•t¶¬_”CˆÓ,c,i”CˆÓ”Nj,i”CˆÓŒŽj,i”CˆÓ“újj
+\1\b[2]\![quicksection,true]icall,“ú‹L“ú•t¶¬_”CˆÓ,c,i”CˆÓ”Nj,i”CˆÓŒŽj,i”CˆÓ“újj
 @E\q[Œ»Ý”NŒŽ“ú‚É‚·‚é,On”CˆÓ“ú•tƒZƒbƒg‘ã“ü,iŒ»Ý”Nj,iŒ»ÝŒŽj,iŒ»Ý“új,–{•¶‹L“ü_diary]
 @E\q[”CˆÓ‚Ì“ú•t‚É‚·‚é,”CˆÓ“ú•tÝ’è]
 
@@ -52,7 +52,7 @@
 ”¢¢¢¢@¢¢@¢¢
 ”¤¤¤¤@¤¤@¤¤
 –”CˆÓ“ú•tÝ’è
-\0\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,1000,1,10000]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,100,1,10000]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,10,1,10000]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,1,1,10000]@\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,ŒŽ,10,1,100]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,ŒŽ,1,1,100]@\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,“ú,10,1,100]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,“ú,1,1,100]
+\1\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,1000,1,10000]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,100,1,10000]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,10,1,10000]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,”N,1,1,10000]@\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,ŒŽ,10,1,100]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,ŒŽ,1,1,100]@\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,“ú,10,1,100]\q[¢,On”CˆÓ“ú•tÝ’è_ˆ—,“ú,1,1,100]
 ihan2zen,isprintf,%04d,i”CˆÓ”Njjj”Nihan2zen,isprintf,%02d,i”CˆÓŒŽjjjŒŽihan2zen,isprintf,%02d,i”CˆÓ“újjj“ú
 \q[¤,On”CˆÓ“ú•tÝ’è_ˆ—,”N,1000,0,10000]\q[¤,On”CˆÓ“ú•tÝ’è_ˆ—,”N,100,0,10000]\q[¤,On”CˆÓ“ú•tÝ’è_ˆ—,”N,10,0,10000]\q[¤,On”CˆÓ“ú•tÝ’è_ˆ—,”N,1,0,10000]@\q[¤,On”CˆÓ“ú•tÝ’è_ˆ—,ŒŽ,10,0,100]\q[¤,On”CˆÓ“ú•tÝ’è_ˆ—,ŒŽ,1,0,100]@\q[¤,On”CˆÓ“ú•tÝ’è_ˆ—,“ú,10,0,100]\q[¤,On”CˆÓ“ú•tÝ’è_ˆ—,“ú,1,0,100]
 
@@ -140,7 +140,7 @@
 „“ú‹L‚ß‚É‚ã[
 
 –‚Ä‚·‚Æ_diary
-\0
+\1
 Q”»’èƒeƒXƒg_diary
 Q“ú•tƒ{ƒbƒNƒX‚ ‚Á‚½‚í‚Ä‚·‚Æ
 icall,‚ß‚É‚ã[––”ö,“ú‹L‚ß‚É‚ã[j
@@ -244,7 +244,7 @@ date_icall,“ú‹L“ú•t¶¬_”CˆÓ,a,i”CˆÓ”Nj,i”CˆÓŒŽj,i”CˆÓ“újjifor,1,5,1,_
 ”icall,“ú‹L•\Ž¦_ƒƒCƒ“,User_diaryj
 ”‚`‚OF“ú‹LƒŠƒXƒg–¼
 –“ú‹L•\Ž¦_ƒƒCƒ“
-\0\b[2]\![quicksection,true]ƒÓ
+\1\b[2]\![quicksection,true]si‚`‚Ojt
 iforAi“ú‹Lƒy[ƒWæ“ªjAi“ú‹Lƒy[ƒW––”öjA1
 	A\![*]\q[icall,“ú‹L“ú•t’Šo,ia_“ú‹L’u‚«êi‚b‚Ojj,bj,On“ú‹LŒÂ•Ê•\Ž¦,ia_“ú‹L’u‚«êi‚b‚Ojj,i‚`‚Oj]\n
 j
@@ -255,8 +255,6 @@ date_icall,“ú‹L“ú•t¶¬_”CˆÓ,a,i”CˆÓ”Nj,i”CˆÓŒŽj,i”CˆÓ“újjifor,1,5,1,_
 	A\q[r,On“ú‹L•\Ž¦ˆ—,iŽŸ‚Ìƒy[ƒWj,i‚`‚Oj] \q[t,On“ú‹L•\Ž¦ˆ—,iƒy[ƒW‘”j,i‚`‚Oj]
 	A[   
 j
-
-\1\![quicksection,true]si‚`‚Ojt
 icall,‚ß‚É‚ã[––”ö,“ú‹L‚ß‚É‚ã[j
 
 
