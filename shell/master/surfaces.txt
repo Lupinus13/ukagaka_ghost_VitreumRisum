@@ -962,7 +962,7 @@ surface427
 
 surface399
 {
-	element0,base,surface0000.png,0,0
+	element0,base,surface0001.png,0,0
 }
 
 
