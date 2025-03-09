@@ -1,4 +1,4 @@
-＃ver0.30.4
+＃ver0.30.5
 ＃めも
 ＃あるいはあらゆるものであるがゆえになにものでもないものについて
 ＃否定と否定の境界上で笑うもの
@@ -151,6 +151,51 @@ ver0.30.4
 ＞めにゅー	（ぱすわーど）＝＝1
 ＞パスワード要求
 
+＃コミュニケート機能
+＃ユーザ反応を組む気がない
+＊OnCommunicate
+（set,こみゅ送信元,（Ｒ０））（set,こみゅ内容,（Ｒ１））φ
+（when,（Ｒ０）＝＝空想上の誰か＆＆（Ｒ２）＝＝リクエスト送信A
+	,（set,LacrimaeリクエストA,1）
+）
+＞LacrimaeリクエストA返信準備	（LacrimaeリクエストA）＝＝1
+≫ユーザ「　（Ｒ１）	（compare,（Ｒ０）,user）
+≫（Ｒ０）「　（Ｒ１）
+≫「　（Ｒ１）
+＞こみゅえすけーぷ
+
+＊こみゅえすけーぷ
+\0不明なリクエストを確認
+（こみゅ送信元）
+（こみゅ内容）
+
+
+＊LacrimaeリクエストA返信準備
+\0To accept a request typeA.
+＄LacrimaeリクエストA返信タイマ	5
+
+＊LacrimaeリクエストA返信
+\1（when,（空想上の誰かの存在）＝＝1
+	,（set,Value0,空想上の誰か）
+	（set,Value1,リクエスト応答A）
+	（set,Value2,（らんだむリクエスト応答））
+	（set,Value3,（らんだむリクエスト応答））
+	（set,Value4,（らんだむリクエスト応答））
+	,どこに？
+）（set,LacrimaeリクエストA,0）
+\0I send a result.
+
+＠らんだむリクエスト応答
+（動詞文）
+（動詞文）
+（動詞文）
+（動詞文）
+（動詞文）
+（動詞文）
+（形容詞文）
+（形容詞文）
+（名詞_連体）の（名詞）
+
 
 ＃目次：ランダムトーク
 
@@ -242,10 +287,11 @@ ver0.30.4
 ＊イベント_Lacrimaeこみゅ
 （when,（空想上の誰かの存在）＝＝1
 	,（set,Value0,空想上の誰か）
-	（set,Value1,（Lacrimaeさむしんぐ））
-	（set,Value2,（call,動詞,連体））
-	（set,Value3,（call,形容詞,連体））
-	（set,Value4,（call,形容動詞,連体））
+	（set,Value1,拾得イベント）
+	（set,Value2,（Lacrimaeさむしんぐ））
+	（set,Value3,（call,動詞,連体））
+	（set,Value4,（call,形容詞,連体））
+	（set,Value5,（call,形容動詞,連体））
 ）（set,Lacrimaeこみゅ予約,0）
 ＞
 
@@ -474,7 +520,7 @@ ver0.30.4
 
 ＊ほにゃくしていせんたく
 \1\b[2]\![quicksection,true]《ほにゃくしてい》
-（for、1、12、1、
+（for、1、14、1、
 	（set,ISO_15924_No,（call,ISO_15924_nsw,（Ｃ０）））
 	\![*]\q[（ISO_15924_No）φ：（call,ISO_15924_convert,（ISO_15924_No））,On設定代入_処理,ほにゃくしてい,（ISO_15924_No）,ほにゃくめにゅー]\n
 ）
@@ -568,7 +614,7 @@ ver0.30.4
 
 \![*]現在実装されている文字φ：表記はISO 15924に準拠
 ほにゃく元φ：Hira、Kana
-ほにゃく先φ：Phnx,Hebr,Arab,Runr,Latn,Cyrl,Hang,Deva,Mlym,Hira,Kana
+ほにゃく先φ：Phnx,Hebr,Arab,Runr,Latn,Cyrl,Hang,Deva,Mlym,Hira,Kana,Hrkt,Hani
 
 \![*]注意事項
 翻訳機能ではないです。

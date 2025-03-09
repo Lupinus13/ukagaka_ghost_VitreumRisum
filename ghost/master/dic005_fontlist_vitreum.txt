@@ -646,6 +646,43 @@ Noto Sans Tai Tham
 ＠Hiragana
 メイリオ
 
+＃やばいほう
+＠Hiragana
+02うつくし明朝体
+03スマートフォントUI
+07ロゴたいぷゴシック7
+07ロゴたいぷゴシックCondense
+07鉄瓶ゴシック
+851手書き雑フォント
+BIZ UDPゴシック
+BIZ UDP明朝 Medium
+chi毛筆風フォント
+DBストレート12
+GD-高速道路ゴシックJA-TTF
+Origami
+PTO-19seg Box
+ribbon
+みつバッチフォントver1
+数式フォントver1.1
+3Dkirieji
+APJapanesefont
+ArmedLemon
+font_1_honokamin
+ghatee
+Gyate-Luminescence
+Harenosora
+Jiyucho
+KajudenFont-Crayon
+kirieji
+Mamelon
+meiryo
+misaki_gothic
+misaki_mincho
+YuGothM
+yumin
+毛筆太文字
+
+
 ＠Katakana
 メイリオ
 
@@ -1101,10 +1138,10 @@ Noto Sans EgyptHiero
 
 
 ＠Kana Supplement
-メイリオ
+IPAmj明朝
 
 ＠Kana Extended-A
-
+IPAmj明朝
 
 ＠Small Kana Extension
 
